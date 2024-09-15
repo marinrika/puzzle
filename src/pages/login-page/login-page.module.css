@@ -1,0 +1,9 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../image/7601-16092021.jpg);
+}

@@ -1,0 +1,13 @@
+.wrapper {
+  font-size: 16px;
+}
+
+.inputValid {
+  background-color: rgb(255, 255, 255);
+  color: rgb(69, 69, 69);
+}
+
+.inputInvalid {
+  background-color: rgba(240, 138, 4, 0.76);
+  color: rgb(255, 255, 255);
+}
