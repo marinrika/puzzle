@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.wrapperCanvas {
+  box-sizing: border-box;
+  background-color: #dcdcdc;
+}
+
+.canvas {
+  display: flex;
+  transition: 0s;
+}
+
+.nonCanvas {
+  display: none;
+  transition: 0s;
+}
+
+.line {
+  display: flex;
+  box-sizing: border-box;
+  background-color: #dcdcdc;
+}
+
+.nonWrapperLine {
+  display: none;
+}

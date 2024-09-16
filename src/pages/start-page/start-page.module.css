@@ -1,0 +1,47 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../image/7601-16092021.jpg);
+  background-size: cover;
+}
+
+.wrapperContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+  width: 520px;
+  font-size: 18px;
+  color: white;
+  padding: 20px;
+  border: solid 1px rgba(43, 43, 43, 0.568);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  gap: 15px;
+}
+
+.title {
+  color: white;
+}
+
+.subTitle {
+  font-size: 26px;
+  font-weight: normal;
+  color: white;
+  margin: 0;
+}

@@ -1,0 +1,8 @@
+.puzzle {
+  z-index: inherit;
+  cursor: pointer;
+}
+
+.puzzle:hover {
+  transform: scale(105%);
+}

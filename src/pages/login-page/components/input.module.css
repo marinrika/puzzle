@@ -1,13 +1,41 @@
 .wrapper {
-  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 350px;
 }
 
 .inputValid {
+  font-size: 20px;
+  padding: 5px;
   background-color: rgb(255, 255, 255);
   color: rgb(69, 69, 69);
 }
 
 .inputInvalid {
+  font-size: 20px;
+  padding: 5px;
   background-color: rgba(240, 138, 4, 0.76);
   color: rgb(255, 255, 255);
+}
+
+.error {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: start;
+  align-items: start; */
+  text-align: start;
+  background-color: transparent;
+  font-size: 14px;
+  color: rgb(136, 0, 0);
+  padding: 5px;
+  border: solid 1px rgba(43, 43, 43, 0.568);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  gap: 15px;
+}
+
+.nonActive {
+  display: none;
 }

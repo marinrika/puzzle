@@ -17,7 +17,43 @@
 body {
   margin: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
+  justify-content: center;
+  align-items: center;
+  /* min-width: 320px; */
   min-height: 100vh;
+  background-color: #949494;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  border: solid 1px rgb(152, 152, 152);
+  box-shadow: inset 2px 2px 10px #dbdada;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #3f4042;
+}
+
+@keyframes shadowRed {
+  0% {
+    box-shadow: -10px 26px 2px -21px #de0d0d;
+  }
+  100% {
+    box-shadow: none;
+  }
+}
+@keyframes shadowGreen {
+  0% {
+    box-shadow: -10px 26px 2px -21px #0b980b;
+  }
+  100% {
+    box-shadow: none;
+  }
 }
