@@ -1,0 +1,55 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  background-color: transparent;
+  width: 520px;
+  font-size: 18px;
+  color: white;
+  padding: 40px;
+  border: solid 1px rgba(43, 43, 43, 0.568);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  gap: 15px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  gap: 5px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: center;
+  font-size: 18px;
+  color: #00424d;
+}
+
+.title {
+  font-size: 22px;
+  color: #00424d;
+}
+
+.lesson {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.image {
+  width: 35px;
+}

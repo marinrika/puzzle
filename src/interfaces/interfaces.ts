@@ -10,7 +10,7 @@ export interface InputLogin {
 
 export interface CommonButton {
   content: string;
-  className?: string;
+  name?: string;
   type?: 'submit' | 'reset' | 'button' | undefined;
   disabled?: boolean;
   onClick?: MouseEventHandler<HTMLButtonElement>;
@@ -59,8 +59,13 @@ export interface StatePlayField {
   imageWidthNew: number;
   isRound: boolean;
   isColor: boolean;
+  isTranslate: boolean;
+  isSound: boolean;
   isCheck: boolean;
   isContinue: boolean;
+  isTranslateHidden: boolean;
+  isSoundHidden: boolean;
+  isLineHintHidden: boolean;
   newImage: string;
   canvasLine: string;
   hintLine: string;
@@ -78,4 +83,15 @@ export interface StatePuzzle {
   src: string;
   arrForCommonLength: number[];
   onClick: React.MouseEventHandler<HTMLCanvasElement>;
+}
+
+export interface StatisticWindow {
+  content: string;
+  giveUp: boolean;
+}
+
+export interface StateStatistic {
+  isStatistic: boolean;
+  isModal: boolean;
+  modal: StatisticWindow[];
 }

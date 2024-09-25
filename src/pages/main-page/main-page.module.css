@@ -16,3 +16,21 @@
   align-items: center;
   gap: 30px;
 }
+
+.wrapperModal {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  min-height: 100vh;
+  justify-content: start;
+  padding: 40px 0px;
+  align-items: center;
+  overflow-y: auto;
+  background: rgba(40, 40, 40, 0.8);
+  z-index: 4;
+}

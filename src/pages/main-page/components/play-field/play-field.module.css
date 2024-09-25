@@ -12,6 +12,7 @@
 .canvas {
   display: flex;
   transition: 0s;
+  z-index: 1;
 }
 
 .nonCanvas {
@@ -25,6 +26,29 @@
   background-color: #dcdcdc;
 }
 
+.lineHidden {
+  display: none;
+}
+
 .nonWrapperLine {
+  display: none;
+}
+
+.commonDiv {
+  font-size: 22px;
+  color: #fff;
+}
+
+.commonDivHidden {
+  display: none;
+}
+
+.buttonHint {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.buttonHintHidden {
   display: none;
 }

@@ -2,7 +2,6 @@ import { Navigate } from 'react-router';
 import styles from './main-page.module.css';
 import SelectGroup from './components/select-group/select-group';
 import {
-  lengthSelectLevel,
   selectLevel,
   selectOptions,
   selectRound,
@@ -12,6 +11,8 @@ import {
 import { useDispatch, useSelector } from 'react-redux';
 import PlayField from './components/play-field/play-field';
 import ButtonGroup from './components/button-group/button-group';
+import StatisticWindow from './components/statistic-window/statistic-window';
+import { selectIsModal } from '../../redux/slices/statistic-slice';
 
 const MainPage = () => {
   const user = !!localStorage.getItem('firstName');
@@ -22,6 +23,10 @@ const MainPage = () => {
   const selectedOptionLevel = useSelector(selectLevel);
   const selectedOptionRound = useSelector(selectRound);
   const arraySelectedRound = useSelector(selectOptions);
+  const arraySelectedLevel = arraySelectedRound.map((item) =>
+    item.every((element) => element === 1) ? 1 : 0
+  );
+  const isModal = useSelector(selectIsModal);
 
   function onChangeLevel(event: React.ChangeEvent<HTMLSelectElement>) {
     localStorage.setItem('level', `${Number(event.target.value) - 1}`);
@@ -41,7 +46,7 @@ const MainPage = () => {
         <div className={styles.wrapper}>
           <div className={styles.wrapperSelect}>
             <SelectGroup
-              arrSelect={lengthSelectLevel}
+              arrSelect={arraySelectedLevel}
               label="Level"
               selectedOption={selectedOptionLevel}
               onChange={onChangeLevel}
@@ -55,6 +60,11 @@ const MainPage = () => {
           </div>
           <PlayField />
           <ButtonGroup />
+          {isModal ? (
+            <div className={styles.wrapperModal}>
+              <StatisticWindow />
+            </div>
+          ) : null}
         </div>
       ) : user ? (
         <Navigate to="start" />

@@ -11,11 +11,13 @@
   cursor: pointer;
 }
 
-.button:not([disabled]):hover {
+.button:not([disabled]):hover,
+.buttonStatistic:hover {
   color: #f08a04;
 }
 
-.button:not([disabled]):active {
+.button:not([disabled]):active,
+.buttonStatistic:active {
   transform: translateY(2px);
 }
 
@@ -23,7 +25,7 @@
   opacity: 0.7;
 }
 
-.buttonStatistics {
+.buttonStatistic {
   border-radius: 10px;
   padding: 10px 20px;
   border: none;

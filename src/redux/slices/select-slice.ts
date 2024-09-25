@@ -1,8 +1,9 @@
 import { createSlice } from '@reduxjs/toolkit';
 import levelSelection from '../../data/levels/level-selection';
 import { StateSelect } from '../../interfaces/interfaces';
+import { QUANTITY_LEVELS } from '../../data/variables/variables';
 
-export const lengthSelectLevel = Array(6).fill(0);
+export const lengthSelectLevel = Array(QUANTITY_LEVELS).fill(0);
 const optionArray = lengthSelectLevel.map((_select, index) =>
   Array(levelSelection(index + 1).roundsCount).fill(0)
 );
@@ -35,10 +36,14 @@ const selectSlice = createSlice({
     setLine: (state, action: { payload: number; type: string }) => {
       state.line = action.payload;
     },
+    setSelectOption: (state, action: { payload: number[][]; type: string }) => {
+      state.selectOptions = action.payload;
+    },
   },
 });
 
-export const { setLevel, setRound, setLine } = selectSlice.actions;
+export const { setLevel, setRound, setLine, setSelectOption } =
+  selectSlice.actions;
 
 export const selectLevel = (state: { select: { level: number } }) =>
   state.select.level;

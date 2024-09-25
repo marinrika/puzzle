@@ -4,7 +4,12 @@ import {
   selectImageHeigthNew,
   selectImageWidthNew,
   selectIsColor,
+  selectIsLineHintHidden,
   selectIsRound,
+  selectIsSound,
+  selectIsSoundHidden,
+  selectIsTranslate,
+  selectIsTranslateHidden,
   selectNewImage,
   setCanvasLine,
   setHintLine,
@@ -20,6 +25,7 @@ import Puzzle from '../puzzle/puzzle';
 import levelSelection from '../../../../data/levels/level-selection';
 import sortArray from '../../../../utils/sort-array';
 import { useEffect, useRef } from 'react';
+import { QUANTITY_LINES } from '../../../../data/variables/variables';
 
 const PlayField = () => {
   const dispatch = useDispatch();
@@ -31,10 +37,25 @@ const PlayField = () => {
   const selectedRound = useSelector(selectRound);
   const selectedLine = useSelector(selectLine);
   const isColor = useSelector(selectIsColor);
+  const isTranslate = useSelector(selectIsTranslate);
+  const isSound = useSelector(selectIsSound);
   const src = useSelector(selectNewImage);
+  const isTranslateHidden = useSelector(selectIsTranslateHidden);
+  const isSoundHidden = useSelector(selectIsSoundHidden);
+  const isLineHintHidden = useSelector(selectIsLineHintHidden);
 
   const lineRef = useRef<HTMLDivElement>(null);
   const lineRefHint = useRef<HTMLDivElement>(null);
+
+  const description = `${
+    levelSelection(selectedLevel + 1).rounds[selectedRound].levelData.author
+  } - ${
+    levelSelection(selectedLevel + 1).rounds[selectedRound].levelData.name
+  } (${
+    levelSelection(selectedLevel + 1).rounds[selectedRound].levelData.year
+  })`;
+  const translate = levelSelection(selectedLevel + 1).rounds[selectedRound]
+    .words[selectedLine].textExampleTranslate;
 
   function puzzlesArray(
     numberLine: number,
@@ -77,7 +98,7 @@ const PlayField = () => {
     puzzlesArray(selectedLine, (event) => movePuzzle(event), isColor)
   );
 
-  const arrayLine = Array(10)
+  const arrayLine = Array(QUANTITY_LINES)
     .fill(0)
     .map((_line, index) =>
       index < selectedLine ? (
@@ -88,9 +109,11 @@ const PlayField = () => {
           key={index}
           style={{
             width: imageWidthNew,
-            minHeight: imageHeightNew / 10,
-            paddingLeft: ((imageHeightNew / 10) * (Math.sqrt(3) + 2)) / 14 + 2,
-          }}>
+            minHeight: imageHeightNew / QUANTITY_LINES,
+            paddingLeft:
+              ((imageHeightNew / QUANTITY_LINES) * (Math.sqrt(3) + 2)) / 14 + 2,
+          }}
+        >
           {puzzlesArray(index, () => {}, false)}
         </div>
       ) : (
@@ -101,9 +124,11 @@ const PlayField = () => {
           key={index}
           style={{
             width: imageWidthNew,
-            minHeight: imageHeightNew / 10,
-            paddingLeft: ((imageHeightNew / 10) * (Math.sqrt(3) + 2)) / 14 + 2,
-          }}></div>
+            minHeight: imageHeightNew / QUANTITY_LINES,
+            paddingLeft:
+              ((imageHeightNew / QUANTITY_LINES) * (Math.sqrt(3) + 2)) / 14 + 2,
+          }}
+        ></div>
       )
     );
 
@@ -143,24 +168,38 @@ const PlayField = () => {
 
     if (divLineSelected.childNodes.length === puzzlesArraySort.length) {
       dispatch(setIsCheck(false));
+    } else {
+      dispatch(setIsCheck(true));
     }
   }
 
   return (
     <div className={styles.wrapper}>
+      {isSound ? null : (
+        <button
+          className={
+            isSoundHidden ? styles.buttonHintHidden : styles.buttonHint
+          }
+        >
+          <img src="../../../assets/images/soundOn.png" />
+        </button>
+      )}
+      {isTranslate ? null : (
+        <div
+          className={
+            isTranslateHidden ? styles.commonDivHidden : styles.commonDiv
+          }
+        >
+          {translate}
+        </div>
+      )}
       <div
         className={styles.wrapperCanvas}
         style={{
           width: imageWidthNew,
           minHeight: imageHeightNew,
-        }}>
-        {/* {isRound ? (
-          <div ref={lineRef}>{arrayLine}</div>
-        ) : (
-          <div className={styles.canvas}>
-            <Canvas />
-          </div>
-        )} */}
+        }}
+      >
         <div className={isRound ? '' : styles.nonWrapperLine} ref={lineRef}>
           {arrayLine}
         </div>
@@ -171,17 +210,19 @@ const PlayField = () => {
       </div>
 
       <div
-        className={styles.line}
+        className={isLineHintHidden ? styles.lineHidden : styles.line}
         ref={lineRefHint}
         id="line-hint"
         style={{
           width: imageWidthNew - 4,
-          height: imageHeightNew / 10,
-          paddingLeft: ((imageHeightNew / 10) * (Math.sqrt(3) + 2)) / 14 + 2,
-        }}>
+          height: imageHeightNew / QUANTITY_LINES,
+          paddingLeft:
+            ((imageHeightNew / QUANTITY_LINES) * (Math.sqrt(3) + 2)) / 14 + 2,
+        }}
+      >
         {puzzlesArraySort}
       </div>
-      {isRound ? null : <p>llllllll</p>}
+      {isRound ? null : <div className={styles.commonDiv}>{description}</div>}
     </div>
   );
 };
