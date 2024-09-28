@@ -14,6 +14,7 @@ import {
   setCanvasLine,
   setHintLine,
   setIsCheck,
+  setIsContinue,
 } from '../../../../redux/slices/play-field-slice';
 import Canvas from '../canvas/canvas';
 import {
@@ -26,6 +27,7 @@ import levelSelection from '../../../../data/levels/level-selection';
 import sortArray from '../../../../utils/sort-array';
 import { useEffect, useRef } from 'react';
 import { QUANTITY_LINES } from '../../../../data/variables/variables';
+import soundPlay from '../../../../utils/sound';
 
 const PlayField = () => {
   const dispatch = useDispatch();
@@ -61,7 +63,8 @@ const PlayField = () => {
     numberLine: number,
     onClick: React.MouseEventHandler<HTMLCanvasElement> = (event) =>
       movePuzzle(event),
-    isColor: boolean
+    isColor: boolean,
+    draggable: boolean
   ) {
     const lineLessons = levelSelection(selectedLevel + 1).rounds[
       selectedRound
@@ -89,13 +92,14 @@ const PlayField = () => {
         arrForCommonLength={arrForCommonLength}
         onClick={onClick}
         isColor={isColor}
+        draggable={draggable}
         key={index}
       />
     ));
   }
 
   const puzzlesArraySort = sortArray(
-    puzzlesArray(selectedLine, (event) => movePuzzle(event), isColor)
+    puzzlesArray(selectedLine, (event) => movePuzzle(event), isColor, true)
   );
 
   const arrayLine = Array(QUANTITY_LINES)
@@ -112,9 +116,8 @@ const PlayField = () => {
             minHeight: imageHeightNew / QUANTITY_LINES,
             paddingLeft:
               ((imageHeightNew / QUANTITY_LINES) * (Math.sqrt(3) + 2)) / 14 + 2,
-          }}
-        >
-          {puzzlesArray(index, () => {}, false)}
+          }}>
+          {puzzlesArray(index, () => {}, false, false)}
         </div>
       ) : (
         <div
@@ -127,8 +130,7 @@ const PlayField = () => {
             minHeight: imageHeightNew / QUANTITY_LINES,
             paddingLeft:
               ((imageHeightNew / QUANTITY_LINES) * (Math.sqrt(3) + 2)) / 14 + 2,
-          }}
-        ></div>
+          }}></div>
       )
     );
 
@@ -170,26 +172,34 @@ const PlayField = () => {
       dispatch(setIsCheck(false));
     } else {
       dispatch(setIsCheck(true));
+      dispatch(setIsContinue(false));
     }
+  }
+
+  function play(event: React.MouseEvent<HTMLDivElement, MouseEvent>) {
+    const sound = soundPlay(selectedLevel, selectedRound, selectedLine);
+    const divSound = event.target as HTMLDivElement;
+    sound.play();
+    sound.onplay = () => (divSound.style.animation = 'sound 0.4s infinite');
+    sound.onended = () => (divSound.style.animation = 'none');
   }
 
   return (
     <div className={styles.wrapper}>
       {isSound ? null : (
-        <button
+        <div
           className={
             isSoundHidden ? styles.buttonHintHidden : styles.buttonHint
           }
-        >
+          onClick={(event) => play(event)}>
           <img src="../../../assets/images/soundOn.png" />
-        </button>
+        </div>
       )}
       {isTranslate ? null : (
         <div
           className={
             isTranslateHidden ? styles.commonDivHidden : styles.commonDiv
-          }
-        >
+          }>
           {translate}
         </div>
       )}
@@ -198,8 +208,7 @@ const PlayField = () => {
         style={{
           width: imageWidthNew,
           minHeight: imageHeightNew,
-        }}
-      >
+        }}>
         <div className={isRound ? '' : styles.nonWrapperLine} ref={lineRef}>
           {arrayLine}
         </div>
@@ -218,8 +227,7 @@ const PlayField = () => {
           height: imageHeightNew / QUANTITY_LINES,
           paddingLeft:
             ((imageHeightNew / QUANTITY_LINES) * (Math.sqrt(3) + 2)) / 14 + 2,
-        }}
-      >
+        }}>
         {puzzlesArraySort}
       </div>
       {isRound ? null : <div className={styles.commonDiv}>{description}</div>}

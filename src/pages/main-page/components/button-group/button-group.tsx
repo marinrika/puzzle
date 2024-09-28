@@ -4,7 +4,6 @@ import {
   selectHintLine,
   selectIsCheck,
   selectIsContinue,
-  setIsCheck,
   setIsContinue,
   setIsLineHintHidden,
   setIsRound,
@@ -16,17 +15,9 @@ import styles from './button-group.module.css';
 import {
   selectLevel,
   selectLine,
-  selectOptions,
   selectRound,
-  setLevel,
-  setLine,
-  setRound,
-  setSelectOption,
 } from '../../../../redux/slices/select-slice';
-import {
-  QUANTITY_LEVELS,
-  QUANTITY_LINES,
-} from '../../../../data/variables/variables';
+import { QUANTITY_LINES } from '../../../../data/variables/variables';
 import {
   selectIsStatistic,
   setIsModal,
@@ -34,8 +25,9 @@ import {
   setModal,
 } from '../../../../redux/slices/statistic-slice';
 import levelSelection from '../../../../data/levels/level-selection';
+import { ContinueRound } from '../../../../interfaces/interfaces';
 
-const ButtonGroup = () => {
+const ButtonGroup = ({ onClick }: ContinueRound) => {
   const dispatch = useDispatch();
 
   const isCheck = useSelector(selectIsCheck);
@@ -44,7 +36,6 @@ const ButtonGroup = () => {
   const hintLine = useSelector(selectHintLine);
   const selectedLevel = useSelector(selectLevel);
   const selectedRound = useSelector(selectRound);
-  const selectOptionsArray = useSelector(selectOptions);
   const selectedLine = useSelector(selectLine);
   const indexLine = Number(canvasLineId);
   const divHintLine = document.getElementById(hintLine);
@@ -71,6 +62,7 @@ const ButtonGroup = () => {
         setModal({
           content: levelSelection(selectedLevel + 1).rounds[selectedRound]
             .words[selectedLine].textExample,
+          line: selectedLine,
           giveUp: false,
         })
       );
@@ -96,55 +88,6 @@ const ButtonGroup = () => {
         dispatch(setIsRound(false));
       }
     }
-  }
-  function continueRound() {
-    if (!canvasLine[indexLine] || !divHintLine) return;
-    if (selectedLine < QUANTITY_LINES - 1) {
-      Array.from(canvasLine[indexLine].children).forEach((item) => {
-        const puzzle = item as HTMLCanvasElement;
-        puzzle.style.animation = 'none';
-        puzzle.remove();
-        divHintLine.appendChild(puzzle);
-      });
-      dispatch(setLine(selectedLine + 1));
-    }
-    if (selectedLine === QUANTITY_LINES - 1) {
-      const copySelectedLevel = selectOptionsArray[selectedLevel].map(
-        (item, index) => (index === selectedRound ? 1 : item)
-      );
-      const copyselectOptionsArray = selectOptionsArray.map((item, index) =>
-        index === selectedLevel ? copySelectedLevel : item
-      );
-      dispatch(setSelectOption(copyselectOptionsArray));
-      localStorage.setItem(
-        'selectOptions',
-        JSON.stringify(copyselectOptionsArray)
-      );
-      dispatch(setLine(0));
-      if (selectedRound < selectOptionsArray[selectedLevel].length - 1) {
-        dispatch(setRound(selectedRound + 1));
-        localStorage.setItem('round', (selectedRound + 1).toString());
-      }
-      if (selectedRound === selectOptionsArray[selectedLevel].length - 1) {
-        dispatch(setRound(0));
-        localStorage.setItem('round', '0');
-        if (selectedLevel < QUANTITY_LEVELS - 1) {
-          dispatch(setLevel(selectedLevel + 1));
-          localStorage.setItem('level', (selectedLevel + 1).toString());
-        }
-        if (selectedLevel === QUANTITY_LEVELS - 1) {
-          dispatch(setLevel(0));
-          localStorage.setItem('level', '0');
-        }
-      }
-      dispatch(setIsTranslateHidden());
-      dispatch(setIsSoundHidden());
-      dispatch(setIsLineHintHidden());
-      dispatch(setIsStatistic(false));
-    }
-    dispatch(setIsRound(true));
-    dispatch(setIsCheck(true));
-    dispatch(setIsContinue(false));
   }
 
   function giveUpLine() {
@@ -179,6 +122,7 @@ const ButtonGroup = () => {
         content: levelSelection(selectedLevel + 1).rounds[selectedRound].words[
           selectedLine
         ].textExample,
+        line: selectedLine,
         giveUp: true,
       })
     );
@@ -202,7 +146,7 @@ const ButtonGroup = () => {
       )}
 
       {isContinue ? (
-        <Button content="Continue" onClick={continueRound} />
+        <Button content="Continue" onClick={onClick} />
       ) : (
         <Button content="Check" disabled={isCheck} onClick={checkLine} />
       )}

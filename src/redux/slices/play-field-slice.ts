@@ -72,6 +72,9 @@ const playFieldSlice = createSlice({
     setHintLine: (state, action: { payload: string; type: string }) => {
       state.hintLine = action.payload;
     },
+    clearPlayField: () => {
+      return initialState;
+    },
   },
 });
 
@@ -92,6 +95,7 @@ export const {
   setIsLineHintHidden,
   setCanvasLine,
   setHintLine,
+  clearPlayField,
 } = playFieldSlice.actions;
 
 export const selectImageWidthOld = (state: {

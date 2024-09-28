@@ -49,11 +49,21 @@ body {
     box-shadow: none;
   }
 }
+
 @keyframes shadowGreen {
   0% {
     box-shadow: -10px 26px 2px -21px #0b980b;
   }
   100% {
     box-shadow: none;
+  }
+}
+
+@keyframes sound {
+  0% {
+    transform: scale(100%);
+  }
+  100% {
+    transform: scale(110%);
   }
 }

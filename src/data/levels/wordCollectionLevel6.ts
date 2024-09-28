@@ -13,7 +13,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
       },
       words: [
         {
-          audioExample: 'files/01_3003_example.mp3',
+          audioExample: 'sounds/01_3003_example.mp3',
           textExample: 'I use biodegradable compost to feed my garden',
           textExampleTranslate:
             'Я использую биоразлагаемый компост, чтобы кормить свой сад',
@@ -22,7 +22,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'биоразлагаемый',
         },
         {
-          audioExample: 'files/01_3004_example.mp3',
+          audioExample: 'sounds/01_3004_example.mp3',
           textExample: 'Justine brought a boxed gift to the birthday party',
           textExampleTranslate:
             'Джастин принесла коробочный подарок на день рождения',
@@ -31,7 +31,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'боксовый',
         },
         {
-          audioExample: 'files/01_3005_example.mp3',
+          audioExample: 'sounds/01_3005_example.mp3',
           textExample: 'The gum Malinda swallowed made her choke',
           textExampleTranslate:
             'Жвачка, которую Малинда проглотила, заставила ее задохнуться',
@@ -40,7 +40,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'удушение',
         },
         {
-          audioExample: 'files/01_3007_example.mp3',
+          audioExample: 'sounds/01_3007_example.mp3',
           textExample: 'After repairing the window, discard any broken glass',
           textExampleTranslate:
             'После ремонта окна откажитесь от разбитого стекла',
@@ -49,7 +49,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'отбрасывание',
         },
         {
-          audioExample: 'files/01_3008_example.mp3',
+          audioExample: 'sounds/01_3008_example.mp3',
           textExample:
             'Intelligent dolphins have learned to communicate with humans',
           textExampleTranslate: 'Умные дельфины научились общаться с людьми',
@@ -58,7 +58,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'дельфин',
         },
         {
-          audioExample: 'files/01_3009_example.mp3',
+          audioExample: 'sounds/01_3009_example.mp3',
           textExample:
             'We planted our garden according to ecologically correct practices',
           textExampleTranslate:
@@ -68,7 +68,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'экологически',
         },
         {
-          audioExample: 'files/01_3010_example.mp3',
+          audioExample: 'sounds/01_3010_example.mp3',
           textExample: 'Being shot by the attacker proved fatal to the victim',
           textExampleTranslate:
             'Застрелен нападавшим оказался смертельным для жертвы',
@@ -77,7 +77,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'фатальным',
         },
         {
-          audioExample: 'files/01_3011_example.mp3',
+          audioExample: 'sounds/01_3011_example.mp3',
           textExample: 'We need to increase the incidence of success in school',
           textExampleTranslate: 'Нам нужно увеличить частоту успеха в школе',
           id: 3011,
@@ -85,7 +85,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'частота',
         },
         {
-          audioExample: 'files/01_3012_example.mp3',
+          audioExample: 'sounds/01_3012_example.mp3',
           textExample:
             'The municipal parking lot downtown can fit one hundred cars',
           textExampleTranslate:
@@ -95,7 +95,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'муниципальный',
         },
         {
-          audioExample: 'files/01_3017_example.mp3',
+          audioExample: 'sounds/01_3017_example.mp3',
           textExample: 'The newspapers were all stuffed into the drawer',
           textExampleTranslate: 'Все газеты были спрятаны в ящик',
           id: 3017,
@@ -115,7 +115,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
       },
       words: [
         {
-          audioExample: 'files/02_3023_example.mp3',
+          audioExample: 'sounds/02_3023_example.mp3',
           textExample:
             'An anonymous donor gave a thousand dollars to the museum',
           textExampleTranslate: 'Анонимный донор дал музею тысячу долларов',
@@ -124,7 +124,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'анонимный',
         },
         {
-          audioExample: 'files/02_3027_example.mp3',
+          audioExample: 'sounds/02_3027_example.mp3',
           textExample: 'The decay in the old building was obvious',
           textExampleTranslate: 'Разрушение в старом здании было очевидным',
           id: 3027,
@@ -132,7 +132,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'затухать',
         },
         {
-          audioExample: 'files/02_3031_example.mp3',
+          audioExample: 'sounds/02_3031_example.mp3',
           textExample:
             'The Roman Empire flourished in Europe two thousand years ago',
           textExampleTranslate:
@@ -142,7 +142,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'процветать',
         },
         {
-          audioExample: 'files/02_3034_example.mp3',
+          audioExample: 'sounds/02_3034_example.mp3',
           textExample: 'The story of King Midas is a story of greed',
           textExampleTranslate: 'История царя Мидаса - это история жадности',
           id: 3034,
@@ -150,7 +150,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'жадность',
         },
         {
-          audioExample: 'files/02_3039_example.mp3',
+          audioExample: 'sounds/02_3039_example.mp3',
           textExample: 'The Venus de Milo is a famous ancient Greek statue',
           textExampleTranslate:
             'Венера Милосская - это знаменитая древнегреческая статуя',
@@ -159,7 +159,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'статуя',
         },
         {
-          audioExample: 'files/02_3040_example.mp3',
+          audioExample: 'sounds/02_3040_example.mp3',
           textExample: 'The virgin goddess of the moon was known as Diana',
           textExampleTranslate:
             'Девственная богиня луны была известна как Диана',
@@ -168,7 +168,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'девственница',
         },
         {
-          audioExample: 'files/03_3041_example.mp3',
+          audioExample: 'sounds/03_3041_example.mp3',
           textExample: 'I felt abnormal this morning, like I was sick',
           textExampleTranslate:
             'Я чувствовал себя ненормальным сегодня утром, как будто я был болен',
@@ -177,7 +177,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'аномальный',
         },
         {
-          audioExample: 'files/03_3043_example.mp3',
+          audioExample: 'sounds/03_3043_example.mp3',
           textExample:
             'My apartment is adjacent to a lovely park and playground',
           textExampleTranslate:
@@ -187,7 +187,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'смежный',
         },
         {
-          audioExample: 'files/03_3044_example.mp3',
+          audioExample: 'sounds/03_3044_example.mp3',
           textExample: 'I used the aluminum foil to wrap the food',
           textExampleTranslate:
             'Я использовал алюминиевую фольгу, чтобы обернуть еду',
@@ -196,7 +196,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'алюминий',
         },
         {
-          audioExample: 'files/03_3046_example.mp3',
+          audioExample: 'sounds/03_3046_example.mp3',
           textExample: 'The artificial Christmas tree was made of plastic',
           textExampleTranslate: 'Искусственная елка была сделана из пластика',
           id: 3046,
@@ -216,7 +216,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
       },
       words: [
         {
-          audioExample: 'files/03_3047_example.mp3',
+          audioExample: 'sounds/03_3047_example.mp3',
           textExample: 'I rode my bicycle down the mountain road',
           textExampleTranslate: 'Я ехал на велосипеде по горной дороге',
           id: 3047,
@@ -224,7 +224,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'велосипед',
         },
         {
-          audioExample: 'files/03_3048_example.mp3',
+          audioExample: 'sounds/03_3048_example.mp3',
           textExample: 'The lawyer will broker our agreement',
           textExampleTranslate: 'Юрист подпишет наше соглашение',
           id: 3048,
@@ -232,7 +232,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'маклер',
         },
         {
-          audioExample: 'files/03_3050_example.mp3',
+          audioExample: 'sounds/03_3050_example.mp3',
           textExample: 'The engineer helped to configure my new computer',
           textExampleTranslate: 'Инженер помог настроить мой новый компьютер',
           id: 3050,
@@ -240,7 +240,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'настройка',
         },
         {
-          audioExample: 'files/03_3053_example.mp3',
+          audioExample: 'sounds/03_3053_example.mp3',
           textExample: 'I had to deduct my expenses from my checkbook',
           textExampleTranslate:
             'Я должен был вычесть мои расходы из моей чековой книжки',
@@ -249,7 +249,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'вычитать',
         },
         {
-          audioExample: 'files/03_3054_example.mp3',
+          audioExample: 'sounds/03_3054_example.mp3',
           textExample: 'I deemed the ice cream to be very delicious',
           textExampleTranslate: 'Я посчитал мороженое очень вкусным',
           id: 3054,
@@ -257,7 +257,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'считать',
         },
         {
-          audioExample: 'files/03_3055_example.mp3',
+          audioExample: 'sounds/03_3055_example.mp3',
           textExample:
             'The entrepreneur made a success out of his new business',
           textExampleTranslate:
@@ -267,7 +267,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'предприниматель',
         },
         {
-          audioExample: 'files/03_3056_example.mp3',
+          audioExample: 'sounds/03_3056_example.mp3',
           textExample: 'Sprinkle the sugar evenly all over the cookies',
           textExampleTranslate: 'Посыпать сахар равномерно по всему печенью',
           id: 3056,
@@ -275,7 +275,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'равномерно',
         },
         {
-          audioExample: 'files/03_3057_example.mp3',
+          audioExample: 'sounds/03_3057_example.mp3',
           textExample: 'Did the company show fiscal growth this year?',
           textExampleTranslate:
             'Показала ли компания рост бюджета в этом году?',
@@ -284,7 +284,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'фискальный',
         },
         {
-          audioExample: 'files/03_3058_example.mp3',
+          audioExample: 'sounds/03_3058_example.mp3',
           textExample: 'The fast food restaurant has a franchise near my home',
           textExampleTranslate:
             'У ресторана быстрого питания есть франшиза возле моего дома',
@@ -293,7 +293,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'франшиза',
         },
         {
-          audioExample: 'files/03_3059_example.mp3',
+          audioExample: 'sounds/03_3059_example.mp3',
           textExample:
             'The citizens of England had ideological differenes about its government',
           textExampleTranslate:
@@ -315,7 +315,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
       },
       words: [
         {
-          audioExample: 'files/04_3065_example.mp3',
+          audioExample: 'sounds/04_3065_example.mp3',
           textExample: 'Not many plants grow in the arid desert',
           textExampleTranslate: 'В засушливой пустыне не так много растений',
           id: 3065,
@@ -323,7 +323,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'засушливый',
         },
         {
-          audioExample: 'files/04_3066_example.mp3',
+          audioExample: 'sounds/04_3066_example.mp3',
           textExample:
             'The large cathedral is full of people on Sunday mornings',
           textExampleTranslate: 'Большой собор полон людей по воскресным утрам',
@@ -332,7 +332,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'собор',
         },
         {
-          audioExample: 'files/04_3067_example.mp3',
+          audioExample: 'sounds/04_3067_example.mp3',
           textExample: 'The crisis was over and things returned to normal',
           textExampleTranslate: 'Кризис закончился и все нормализовалось',
           id: 3067,
@@ -340,7 +340,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'кризис',
         },
         {
-          audioExample: 'files/04_3072_example.mp3',
+          audioExample: 'sounds/04_3072_example.mp3',
           textExample: 'He grumbled about having to work late on Friday',
           textExampleTranslate:
             'Он ворчал по поводу того, что должен был работать допоздна в пятницу',
@@ -349,7 +349,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'ворчать',
         },
         {
-          audioExample: 'files/04_3073_example.mp3',
+          audioExample: 'sounds/04_3073_example.mp3',
           textExample: 'The river curved inland near the campground',
           textExampleTranslate: 'Река изогнута внутри страны возле кемпинга',
           id: 3073,
@@ -357,7 +357,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'вглубь',
         },
         {
-          audioExample: 'files/04_3078_example.mp3',
+          audioExample: 'sounds/04_3078_example.mp3',
           textExample: 'Their car couldn’t make it far along the rugged roads',
           textExampleTranslate:
             'Их машина не могла проехать далеко по бурным дорогам',
@@ -366,7 +366,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'прочный',
         },
         {
-          audioExample: 'files/05_3081_example.mp3',
+          audioExample: 'sounds/05_3081_example.mp3',
           textExample: 'The dolphin is an aquatic mammal',
           textExampleTranslate: 'Дельфин - водное млекопитающее',
           id: 3081,
@@ -374,7 +374,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'водные',
         },
         {
-          audioExample: 'files/05_3082_example.mp3',
+          audioExample: 'sounds/05_3082_example.mp3',
           textExample: 'Birds, trees, and worms all thrive in the biosphere',
           textExampleTranslate: 'Птицы, деревья и черви процветают в биосфере',
           id: 3082,
@@ -382,7 +382,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'биосфера',
         },
         {
-          audioExample: 'files/05_3084_example.mp3',
+          audioExample: 'sounds/05_3084_example.mp3',
           textExample: 'Water freezes at zero degrees Celsius',
           textExampleTranslate: 'Вода замерзает при нулевых градусах Цельсия',
           id: 3084,
@@ -390,7 +390,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'цельсий',
         },
         {
-          audioExample: 'files/05_3085_example.mp3',
+          audioExample: 'sounds/05_3085_example.mp3',
           textExample: 'The coarse sweater made my skin itch',
           textExampleTranslate: 'Грубый свитер заставил мою кожу чесаться',
           id: 3085,
@@ -410,7 +410,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
       },
       words: [
         {
-          audioExample: 'files/05_3086_example.mp3',
+          audioExample: 'sounds/05_3086_example.mp3',
           textExample: 'I always walk to school with my companion Frank',
           textExampleTranslate:
             'Я всегда хожу в школу с моим компаньоном Фрэнком',
@@ -419,7 +419,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'спутник',
         },
         {
-          audioExample: 'files/05_3088_example.mp3',
+          audioExample: 'sounds/05_3088_example.mp3',
           textExample:
             'The girls watched television for the duration of the evening',
           textExampleTranslate:
@@ -429,7 +429,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'продолжительность',
         },
         {
-          audioExample: 'files/05_3090_example.mp3',
+          audioExample: 'sounds/05_3090_example.mp3',
           textExample: 'The elephant’s standing up on one leg was a feat',
           textExampleTranslate: 'Слон стоя на одной ноге был подвигом',
           id: 3090,
@@ -437,7 +437,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'подвиг',
         },
         {
-          audioExample: 'files/05_3091_example.mp3',
+          audioExample: 'sounds/05_3091_example.mp3',
           textExample: 'Many scientists believe that the universe is infinite',
           textExampleTranslate:
             'Многие ученые считают, что вселенная бесконечна',
@@ -446,7 +446,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'бесконечный',
         },
         {
-          audioExample: 'files/05_3092_example.mp3',
+          audioExample: 'sounds/05_3092_example.mp3',
           textExample: 'The nucleus is made up of many tiny particles',
           textExampleTranslate: 'Ядро состоит из множества крошечных частиц',
           id: 3092,
@@ -454,7 +454,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'ядро',
         },
         {
-          audioExample: 'files/05_3093_example.mp3',
+          audioExample: 'sounds/05_3093_example.mp3',
           textExample: 'The sick dog was covered in parasites',
           textExampleTranslate: 'Больная собака была покрыта паразитами',
           id: 3093,
@@ -462,7 +462,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'паразит',
         },
         {
-          audioExample: 'files/05_3094_example.mp3',
+          audioExample: 'sounds/05_3094_example.mp3',
           textExample: 'Queen Victoria was a prominent person in history',
           textExampleTranslate:
             'Королева Виктория была выдающимся человеком в истории',
@@ -471,7 +471,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'видный',
         },
         {
-          audioExample: 'files/05_3096_example.mp3',
+          audioExample: 'sounds/05_3096_example.mp3',
           textExample: 'The reproductive system of a plant is simple',
           textExampleTranslate: 'Репродуктивная система растения проста',
           id: 3096,
@@ -479,7 +479,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'репродуктивный',
         },
         {
-          audioExample: 'files/05_3098_example.mp3',
+          audioExample: 'sounds/05_3098_example.mp3',
           textExample: 'Boxers have a high tolerance for pain',
           textExampleTranslate: 'У боксеров высокая переносимость боли',
           id: 3098,
@@ -487,7 +487,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'толерантность',
         },
         {
-          audioExample: 'files/05_3099_example.mp3',
+          audioExample: 'sounds/05_3099_example.mp3',
           textExample: 'The cancer patient undergoes treatments twice a week',
           textExampleTranslate:
             'Больной раком проходит лечение два раза в неделю',
@@ -508,7 +508,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
       },
       words: [
         {
-          audioExample: 'files/06_3101_example.mp3',
+          audioExample: 'sounds/06_3101_example.mp3',
           textExample:
             'To be competitive, we must update our archaic equipment',
           textExampleTranslate:
@@ -518,7 +518,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'архаичный',
         },
         {
-          audioExample: 'files/06_3102_example.mp3',
+          audioExample: 'sounds/06_3102_example.mp3',
           textExample:
             'Brass is used to make musical instruments like trumpets',
           textExampleTranslate:
@@ -528,7 +528,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'латунь',
         },
         {
-          audioExample: 'files/06_3103_example.mp3',
+          audioExample: 'sounds/06_3103_example.mp3',
           textExample:
             'Most economies in the world today are based on capitalism',
           textExampleTranslate:
@@ -538,7 +538,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'капитализм',
         },
         {
-          audioExample: 'files/06_3105_example.mp3',
+          audioExample: 'sounds/06_3105_example.mp3',
           textExample: 'Young children have a dependence on their parents',
           textExampleTranslate: 'Маленькие дети зависят от родителей',
           id: 3105,
@@ -546,7 +546,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'зависимость',
         },
         {
-          audioExample: 'files/06_3106_example.mp3',
+          audioExample: 'sounds/06_3106_example.mp3',
           textExample: 'As the economy got worse, my savings diminished',
           textExampleTranslate:
             'По мере ухудшения экономики мои сбережения уменьшались',
@@ -555,7 +555,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'уменьшить',
         },
         {
-          audioExample: 'files/06_3109_example.mp3',
+          audioExample: 'sounds/06_3109_example.mp3',
           textExample:
             'The tourist industry is doing well all around the world',
           textExampleTranslate:
@@ -565,7 +565,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'промышленность',
         },
         {
-          audioExample: 'files/06_3110_example.mp3',
+          audioExample: 'sounds/06_3110_example.mp3',
           textExample: 'Nancy has a managerial position at the bank',
           textExampleTranslate: 'Нэнси занимает руководящую должность в банке',
           id: 3110,
@@ -573,7 +573,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'управленческий',
         },
         {
-          audioExample: 'files/06_3111_example.mp3',
+          audioExample: 'sounds/06_3111_example.mp3',
           textExample:
             'We visited a castle that was built during medieval times',
           textExampleTranslate:
@@ -583,7 +583,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'средневековый',
         },
         {
-          audioExample: 'files/06_3112_example.mp3',
+          audioExample: 'sounds/06_3112_example.mp3',
           textExample:
             'Since computers became inexpensive, typewriters have become obsolete',
           textExampleTranslate:
@@ -593,7 +593,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'устаревшие',
         },
         {
-          audioExample: 'files/06_3113_example.mp3',
+          audioExample: 'sounds/06_3113_example.mp3',
           textExample: 'He is living a money-oriented lifestyle',
           textExampleTranslate:
             'Он живет ориентированным на деньги образом жизни',
@@ -614,7 +614,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
       },
       words: [
         {
-          audioExample: 'files/06_3114_example.mp3',
+          audioExample: 'sounds/06_3114_example.mp3',
           textExample: 'The state of Florida is an example of a peninsula',
           textExampleTranslate: 'Штат Флорида является примером полуострова',
           id: 3114,
@@ -622,7 +622,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'полуостров',
         },
         {
-          audioExample: 'files/07_3121_example.mp3',
+          audioExample: 'sounds/07_3121_example.mp3',
           textExample: 'The accountant helped us keep track of our spending',
           textExampleTranslate: 'Бухгалтер помог нам отслеживать наши расходы',
           id: 3121,
@@ -630,7 +630,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'бухгалтер',
         },
         {
-          audioExample: 'files/07_3123_example.mp3',
+          audioExample: 'sounds/07_3123_example.mp3',
           textExample: 'The judge had contempt for the wicked criminal',
           textExampleTranslate: 'Судья презирал злого преступника',
           id: 3123,
@@ -638,7 +638,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'презрение',
         },
         {
-          audioExample: 'files/07_3124_example.mp3',
+          audioExample: 'sounds/07_3124_example.mp3',
           textExample: 'I had a good crop of onions this year',
           textExampleTranslate: 'У меня был хороший урожай лука в этом году',
           id: 3124,
@@ -646,7 +646,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'подрезать',
         },
         {
-          audioExample: 'files/07_3125_example.mp3',
+          audioExample: 'sounds/07_3125_example.mp3',
           textExample: 'The nun dedicated herself to helping people in need',
           textExampleTranslate:
             'Монахиня посвятила себя помощи нуждающимся людям',
@@ -655,7 +655,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'посвятить',
         },
         {
-          audioExample: 'files/07_3127_example.mp3',
+          audioExample: 'sounds/07_3127_example.mp3',
           textExample: 'My father owns an advertising enterprise',
           textExampleTranslate: 'Мой отец владеет рекламным предприятием',
           id: 3127,
@@ -663,7 +663,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'предприятие',
         },
         {
-          audioExample: 'files/07_3128_example.mp3',
+          audioExample: 'sounds/07_3128_example.mp3',
           textExample:
             'The government financed the scientist’s experiments with new weapons',
           textExampleTranslate:
@@ -673,7 +673,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'финансирование',
         },
         {
-          audioExample: 'files/07_3131_example.mp3',
+          audioExample: 'sounds/07_3131_example.mp3',
           textExample:
             'You should exercise regularly to maximize a healthy lifestyle',
           textExampleTranslate:
@@ -683,7 +683,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'максимизировать',
         },
         {
-          audioExample: 'files/07_3137_example.mp3',
+          audioExample: 'sounds/07_3137_example.mp3',
           textExample: 'He always sows his garden seeds in the springtime',
           textExampleTranslate: 'Он всегда сеет семена своего сада весной',
           id: 3137,
@@ -691,7 +691,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'сеют',
         },
         {
-          audioExample: 'files/07_3139_example.mp3',
+          audioExample: 'sounds/07_3139_example.mp3',
           textExample: 'I like tomato sandwiches',
           textExampleTranslate: 'Я люблю томатные бутерброды',
           id: 3139,
@@ -711,7 +711,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
       },
       words: [
         {
-          audioExample: 'files/07_3140_example.mp3',
+          audioExample: 'sounds/07_3140_example.mp3',
           textExample: 'The kids were worried about their upcoming exam',
           textExampleTranslate: 'Дети были обеспокоены предстоящим экзаменом',
           id: 3140,
@@ -719,7 +719,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'предстоящие',
         },
         {
-          audioExample: 'files/08_3142_example.mp3',
+          audioExample: 'sounds/08_3142_example.mp3',
           textExample: 'Everyone cheered and applauded Manny’s efforts',
           textExampleTranslate:
             'Все приветствовали и приветствовали усилия Мэнни',
@@ -728,7 +728,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'аплодировать',
         },
         {
-          audioExample: 'files/08_3147_example.mp3',
+          audioExample: 'sounds/08_3147_example.mp3',
           textExample: 'The king ruled for ten consecutive years',
           textExampleTranslate: 'Король правил десять лет подряд',
           id: 3147,
@@ -736,7 +736,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'подряд',
         },
         {
-          audioExample: 'files/08_3150_example.mp3',
+          audioExample: 'sounds/08_3150_example.mp3',
           textExample: 'I asked my boss for feedback on my work',
           textExampleTranslate:
             'Я попросил моего босса оставить отзыв о моей работе',
@@ -745,7 +745,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'обратная связь',
         },
         {
-          audioExample: 'files/08_3152_example.mp3',
+          audioExample: 'sounds/08_3152_example.mp3',
           textExample:
             'American football is usually considered a masculine sport',
           textExampleTranslate:
@@ -755,7 +755,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'мужской',
         },
         {
-          audioExample: 'files/08_3153_example.mp3',
+          audioExample: 'sounds/08_3153_example.mp3',
           textExample: 'A large monument was built to honor the brave soldiers',
           textExampleTranslate:
             'Большой памятник был построен в честь храбрых солдат',
@@ -764,7 +764,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'памятник',
         },
         {
-          audioExample: 'files/08_3154_example.mp3',
+          audioExample: 'sounds/08_3154_example.mp3',
           textExample:
             'He exercised regularly so that his body could become muscular',
           textExampleTranslate:
@@ -774,7 +774,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'мускулистый',
         },
         {
-          audioExample: 'files/08_3155_example.mp3',
+          audioExample: 'sounds/08_3155_example.mp3',
           textExample: 'Your back will feel better if you improve your posture',
           textExampleTranslate:
             'Ваша спина будет чувствовать себя лучше, если вы улучшите осанку',
@@ -783,7 +783,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'поза',
         },
         {
-          audioExample: 'files/08_3156_example.mp3',
+          audioExample: 'sounds/08_3156_example.mp3',
           textExample: 'The road was situated between the forest and the lake',
           textExampleTranslate: 'Дорога шла между лесом и озером',
           id: 3156,
@@ -791,7 +791,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'размещать',
         },
         {
-          audioExample: 'files/08_3157_example.mp3',
+          audioExample: 'sounds/08_3157_example.mp3',
           textExample:
             'Allen supervised the construction workers to ensure everyone’s safety',
           textExampleTranslate:
@@ -813,7 +813,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
       },
       words: [
         {
-          audioExample: 'files/08_3159_example.mp3',
+          audioExample: 'sounds/08_3159_example.mp3',
           textExample: 'The surfer had tattoos on both his arms',
           textExampleTranslate: 'У серфера были татуировки на обеих руках',
           id: 3159,
@@ -821,7 +821,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'тату',
         },
         {
-          audioExample: 'files/09_3163_example.mp3',
+          audioExample: 'sounds/09_3163_example.mp3',
           textExample: 'These apples are too rotten for consumption',
           textExampleTranslate: 'Эти яблоки слишком гнилые для потребления',
           id: 3163,
@@ -829,7 +829,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'потребление',
         },
         {
-          audioExample: 'files/09_3165_example.mp3',
+          audioExample: 'sounds/09_3165_example.mp3',
           textExample: 'The little boy never ate the crust of his pizza',
           textExampleTranslate:
             'Маленький мальчик никогда не ел корочку своей пиццы',
@@ -838,7 +838,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'корочка',
         },
         {
-          audioExample: 'files/09_3167_example.mp3',
+          audioExample: 'sounds/09_3167_example.mp3',
           textExample: 'Her bodyguards escorted her to the movie theater',
           textExampleTranslate: 'Ее телохранители проводили ее в кинотеатр',
           id: 3167,
@@ -846,7 +846,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'эскорт',
         },
         {
-          audioExample: 'files/09_3169_example.mp3',
+          audioExample: 'sounds/09_3169_example.mp3',
           textExample: 'There are many educational facilities in big cities',
           textExampleTranslate: 'В больших городах много учебных заведений',
           id: 3169,
@@ -854,7 +854,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'объект',
         },
         {
-          audioExample: 'files/09_3170_example.mp3',
+          audioExample: 'sounds/09_3170_example.mp3',
           textExample:
             'The boy’s mental faculties impressed all of his teachers',
           textExampleTranslate:
@@ -864,7 +864,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'факультет',
         },
         {
-          audioExample: 'files/09_3175_example.mp3',
+          audioExample: 'sounds/09_3175_example.mp3',
           textExample: 'He licked his ice cream before it melted',
           textExampleTranslate:
             'Он облизал свое мороженое до того, как оно растаяло',
@@ -873,7 +873,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'лизать',
         },
         {
-          audioExample: 'files/09_3176_example.mp3',
+          audioExample: 'sounds/09_3176_example.mp3',
           textExample: 'The woman kept some colorful ornaments on the shelves',
           textExampleTranslate:
             'Женщина держала на полках несколько разноцветных украшений',
@@ -882,7 +882,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'орнамент',
         },
         {
-          audioExample: 'files/09_3177_example.mp3',
+          audioExample: 'sounds/09_3177_example.mp3',
           textExample:
             'Drivers should be careful when pedestrians are walking around',
           textExampleTranslate:
@@ -892,7 +892,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'пешеход',
         },
         {
-          audioExample: 'files/09_3179_example.mp3',
+          audioExample: 'sounds/09_3179_example.mp3',
           textExample: 'There were thousands of spectators at the big game',
           textExampleTranslate:
             'На большой игре присутствовали тысячи зрителей',
@@ -913,7 +913,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
       },
       words: [
         {
-          audioExample: 'files/09_3180_example.mp3',
+          audioExample: 'sounds/09_3180_example.mp3',
           textExample: 'Someone yelled out his name',
           textExampleTranslate: 'Кто-то выкрикнул его имя',
           id: 3180,
@@ -921,7 +921,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'орать',
         },
         {
-          audioExample: 'files/10_3181_example.mp3',
+          audioExample: 'sounds/10_3181_example.mp3',
           textExample:
             'The store sold colorful accessories like bags, sunglasses, and makeup',
           textExampleTranslate:
@@ -931,7 +931,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'аксессуар',
         },
         {
-          audioExample: 'files/10_3185_example.mp3',
+          audioExample: 'sounds/10_3185_example.mp3',
           textExample:
             'She gave the teacher an elaborate explanation of her project',
           textExampleTranslate:
@@ -941,7 +941,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'разрабатывать',
         },
         {
-          audioExample: 'files/10_3187_example.mp3',
+          audioExample: 'sounds/10_3187_example.mp3',
           textExample:
             'To facilitate the meeting, Melissa used a simple computer program',
           textExampleTranslate:
@@ -951,7 +951,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'облегчить',
         },
         {
-          audioExample: 'files/10_3189_example.mp3',
+          audioExample: 'sounds/10_3189_example.mp3',
           textExample: 'We located our town using the grid',
           textExampleTranslate: 'Мы нашли наш город, используя сетку',
           id: 3189,
@@ -959,7 +959,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'сетка',
         },
         {
-          audioExample: 'files/10_3190_example.mp3',
+          audioExample: 'sounds/10_3190_example.mp3',
           textExample:
             'Foods that have been imported are usually more expensive',
           textExampleTranslate:
@@ -969,7 +969,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'импортировать',
         },
         {
-          audioExample: 'files/10_3192_example.mp3',
+          audioExample: 'sounds/10_3192_example.mp3',
           textExample: 'I helped him infate the balloons',
           textExampleTranslate: 'Я помог ему раздувать воздушные шары',
           id: 3192,
@@ -977,7 +977,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'надуть',
         },
         {
-          audioExample: 'files/10_3193_example.mp3',
+          audioExample: 'sounds/10_3193_example.mp3',
           textExample: 'He had the innate desire to please his teachers',
           textExampleTranslate:
             'У него было врожденное желание угодить своим учителям',
@@ -986,7 +986,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'врожденный',
         },
         {
-          audioExample: 'files/10_3194_example.mp3',
+          audioExample: 'sounds/10_3194_example.mp3',
           textExample: 'The large house had floors made of marble',
           textExampleTranslate: 'В большом доме были полы из мрамора',
           id: 3194,
@@ -994,7 +994,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'мрамор',
         },
         {
-          audioExample: 'files/10_3195_example.mp3',
+          audioExample: 'sounds/10_3195_example.mp3',
           textExample: 'The mast held both sails of the ship upright',
           textExampleTranslate:
             'Мачта держала оба паруса корабля в вертикальном положении',
@@ -1015,7 +1015,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
       },
       words: [
         {
-          audioExample: 'files/10_3198_example.mp3',
+          audioExample: 'sounds/10_3198_example.mp3',
           textExample: 'I keep my money in a small pouch',
           textExampleTranslate: 'Я храню свои деньги в маленьком мешочке',
           id: 3198,
@@ -1023,7 +1023,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'мешочек',
         },
         {
-          audioExample: 'files/10_3199_example.mp3',
+          audioExample: 'sounds/10_3199_example.mp3',
           textExample: 'Leigh’s hair became saturated in the rainstorm',
           textExampleTranslate: 'Волосы Ли стали насыщенными дождем',
           id: 3199,
@@ -1031,7 +1031,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'насыщенный',
         },
         {
-          audioExample: 'files/10_3200_example.mp3',
+          audioExample: 'sounds/10_3200_example.mp3',
           textExample: 'My phone is downloading a software update',
           textExampleTranslate:
             'Мой телефон загружает обновление программного обеспечения',
@@ -1040,7 +1040,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'обновить',
         },
         {
-          audioExample: 'files/11_3201_example.mp3',
+          audioExample: 'sounds/11_3201_example.mp3',
           textExample: 'The attorney appeared in front of the judge for me',
           textExampleTranslate: 'Адвокат предстал перед судьей для меня',
           id: 3201,
@@ -1048,7 +1048,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'адвокат',
         },
         {
-          audioExample: 'files/11_3204_example.mp3',
+          audioExample: 'sounds/11_3204_example.mp3',
           textExample: 'He was proud to be a blood donor',
           textExampleTranslate: 'Он был горд быть донором крови',
           id: 3204,
@@ -1056,7 +1056,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'донор',
         },
         {
-          audioExample: 'files/11_3208_example.mp3',
+          audioExample: 'sounds/11_3208_example.mp3',
           textExample: 'The wall was covered with colorful graffiti',
           textExampleTranslate: 'Стена была покрыта разноцветными граффити',
           id: 3208,
@@ -1064,7 +1064,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'граффити',
         },
         {
-          audioExample: 'files/11_3209_example.mp3',
+          audioExample: 'sounds/11_3209_example.mp3',
           textExample: 'The librarians are the guardians of the books',
           textExampleTranslate: 'Библиотекари являются хранителями книг',
           id: 3209,
@@ -1072,7 +1072,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'опекун',
         },
         {
-          audioExample: 'files/11_3210_example.mp3',
+          audioExample: 'sounds/11_3210_example.mp3',
           textExample: 'The man was implicated in the theft at the store',
           textExampleTranslate: 'Человек был замешан в краже в магазине',
           id: 3210,
@@ -1080,7 +1080,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'имплицитный',
         },
         {
-          audioExample: 'files/11_3211_example.mp3',
+          audioExample: 'sounds/11_3211_example.mp3',
           textExample: 'His kin were all farmers',
           textExampleTranslate: 'Все его родственники были фермерами',
           id: 3211,
@@ -1088,7 +1088,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'род',
         },
         {
-          audioExample: 'files/11_3212_example.mp3',
+          audioExample: 'sounds/11_3212_example.mp3',
           textExample: 'The soccer player didn’t agree with the referee',
           textExampleTranslate: 'Футболист не согласен с рефери',
           id: 3212,
@@ -1108,7 +1108,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
       },
       words: [
         {
-          audioExample: 'files/11_3213_example.mp3',
+          audioExample: 'sounds/11_3213_example.mp3',
           textExample: 'He severed the string using scissors',
           textExampleTranslate: 'Он перерезал нить, используя ножницы',
           id: 3213,
@@ -1116,7 +1116,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'север',
         },
         {
-          audioExample: 'files/11_3218_example.mp3',
+          audioExample: 'sounds/11_3218_example.mp3',
           textExample: 'The trip was terminated after the car broke down',
           textExampleTranslate: 'Поездка была прекращена после поломки машины',
           id: 3218,
@@ -1124,7 +1124,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'прекратить',
         },
         {
-          audioExample: 'files/11_3219_example.mp3',
+          audioExample: 'sounds/11_3219_example.mp3',
           textExample: 'The students discussed the book’s theme in class',
           textExampleTranslate: 'Студенты обсуждали тему книги в классе',
           id: 3219,
@@ -1132,7 +1132,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'тема',
         },
         {
-          audioExample: 'files/12_3222_example.mp3',
+          audioExample: 'sounds/12_3222_example.mp3',
           textExample: 'She was denied amnesty for her involvement in the war',
           textExampleTranslate:
             'Ей было отказано в амнистии за участие в войне',
@@ -1141,7 +1141,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'амнистия',
         },
         {
-          audioExample: 'files/12_3226_example.mp3',
+          audioExample: 'sounds/12_3226_example.mp3',
           textExample: 'The two warriors were locked in combat',
           textExampleTranslate: 'Два воина были заперты в бою',
           id: 3226,
@@ -1149,7 +1149,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'боевой',
         },
         {
-          audioExample: 'files/12_3227_example.mp3',
+          audioExample: 'sounds/12_3227_example.mp3',
           textExample:
             'There is nothing commonplace about the way Morris dresses',
           textExampleTranslate: 'Нет ничего общего в том, как Моррис одевается',
@@ -1158,7 +1158,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'обычное дело',
         },
         {
-          audioExample: 'files/12_3234_example.mp3',
+          audioExample: 'sounds/12_3234_example.mp3',
           textExample: 'She liked to meditate for several hours each day',
           textExampleTranslate:
             'Ей нравилось медитировать по несколько часов каждый день',
@@ -1167,7 +1167,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'медитировать',
         },
         {
-          audioExample: 'files/12_3236_example.mp3',
+          audioExample: 'sounds/12_3236_example.mp3',
           textExample: 'The older boy provoked Paul by calling him mean names',
           textExampleTranslate:
             'Старший мальчик спровоцировал Пола, назвав его подлыми именами',
@@ -1176,7 +1176,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'спровоцировать',
         },
         {
-          audioExample: 'files/12_3237_example.mp3',
+          audioExample: 'sounds/12_3237_example.mp3',
           textExample: 'He was not very active in the realm of business',
           textExampleTranslate: 'Он был не очень активен в сфере бизнеса',
           id: 3237,
@@ -1184,7 +1184,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'царство',
         },
         {
-          audioExample: 'files/12_3238_example.mp3',
+          audioExample: 'sounds/12_3238_example.mp3',
           textExample: 'The emperor’s reign lasted for only two years',
           textExampleTranslate:
             'Царствование императора длилось всего два года',
@@ -1205,7 +1205,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
       },
       words: [
         {
-          audioExample: 'files/13_3241_example.mp3',
+          audioExample: 'sounds/13_3241_example.mp3',
           textExample: 'The dresses were noteworthy for their aesthetic design',
           textExampleTranslate:
             'Платья были примечательны своим эстетическим дизайном',
@@ -1214,7 +1214,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'эстетический',
         },
         {
-          audioExample: 'files/13_3250_example.mp3',
+          audioExample: 'sounds/13_3250_example.mp3',
           textExample: 'The rotten apple left a nasty taste inside her mouth',
           textExampleTranslate: 'Гнилое яблоко оставило неприятный вкус во рту',
           id: 3250,
@@ -1222,7 +1222,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'противный',
         },
         {
-          audioExample: 'files/13_3256_example.mp3',
+          audioExample: 'sounds/13_3256_example.mp3',
           textExample: 'The wood we found was full of termites',
           textExampleTranslate: 'Лес, который мы нашли, был полон термитов',
           id: 3256,
@@ -1230,7 +1230,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'термит',
         },
         {
-          audioExample: 'files/13_3259_example.mp3',
+          audioExample: 'sounds/13_3259_example.mp3',
           textExample: 'They started the fire with a handful of dry twigs',
           textExampleTranslate: 'Они начали огонь с горстки сухих веток',
           id: 3259,
@@ -1238,7 +1238,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'прут',
         },
         {
-          audioExample: 'files/14_3263_example.mp3',
+          audioExample: 'sounds/14_3263_example.mp3',
           textExample: 'The North Pole is covered by a huge glacier',
           textExampleTranslate: 'Северный полюс покрыт огромным ледником',
           id: 3263,
@@ -1246,7 +1246,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'ледник',
         },
         {
-          audioExample: 'files/14_3264_example.mp3',
+          audioExample: 'sounds/14_3264_example.mp3',
           textExample: 'Water covers most of the globe',
           textExampleTranslate: 'Вода покрывает большую часть земного шара',
           id: 3264,
@@ -1254,7 +1254,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'глобус',
         },
         {
-          audioExample: 'files/14_3266_example.mp3',
+          audioExample: 'sounds/14_3266_example.mp3',
           textExample: 'The man hummed his favorite song',
           textExampleTranslate: 'Человек напевал свою любимую песню',
           id: 3266,
@@ -1262,7 +1262,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'гул',
         },
         {
-          audioExample: 'files/14_3269_example.mp3',
+          audioExample: 'sounds/14_3269_example.mp3',
           textExample: 'Could you please buy a loaf of bread for sandwiches?',
           textExampleTranslate:
             'Не могли бы вы купить буханку хлеба для бутербродов?',
@@ -1271,7 +1271,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'буханка',
         },
         {
-          audioExample: 'files/14_3271_example.mp3',
+          audioExample: 'sounds/14_3271_example.mp3',
           textExample: 'The Moon orbits the Earth',
           textExampleTranslate: 'Луна вращается вокруг Земли',
           id: 3271,
@@ -1279,7 +1279,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'орбита',
         },
         {
-          audioExample: 'files/14_3273_example.mp3',
+          audioExample: 'sounds/14_3273_example.mp3',
           textExample: 'The band played us a preview of their new song',
           textExampleTranslate: 'Группа сыграла нам превью своей новой песни',
           id: 3273,
@@ -1299,7 +1299,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
       },
       words: [
         {
-          audioExample: 'files/14_3276_example.mp3',
+          audioExample: 'sounds/14_3276_example.mp3',
           textExample:
             'Burglaries seem to recur over and over in our neighborhood',
           textExampleTranslate:
@@ -1309,7 +1309,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'повторялись',
         },
         {
-          audioExample: 'files/14_3279_example.mp3',
+          audioExample: 'sounds/14_3279_example.mp3',
           textExample: 'If you give the car a push, it won’t stall',
           textExampleTranslate: 'Если вы толкнете машину, она не остановится',
           id: 3279,
@@ -1317,7 +1317,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'стойло',
         },
         {
-          audioExample: 'files/15_3282_example.mp3',
+          audioExample: 'sounds/15_3282_example.mp3',
           textExample:
             'The classroom had many arbitrary rules that confused me',
           textExampleTranslate:
@@ -1327,7 +1327,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'произвольное',
         },
         {
-          audioExample: 'files/15_3283_example.mp3',
+          audioExample: 'sounds/15_3283_example.mp3',
           textExample: 'I read an autobiography about my favorite entertainer',
           textExampleTranslate:
             'Я прочитал автобиографию о моем любимом артисте',
@@ -1336,7 +1336,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'автобиография',
         },
         {
-          audioExample: 'files/15_3287_example.mp3',
+          audioExample: 'sounds/15_3287_example.mp3',
           textExample: 'People can conserve energy by insulating their houses',
           textExampleTranslate:
             'Люди могут экономить энергию, изолируя свои дома',
@@ -1345,7 +1345,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'изолирует',
         },
         {
-          audioExample: 'files/15_3288_example.mp3',
+          audioExample: 'sounds/15_3288_example.mp3',
           textExample: 'Her mysterious past intrigued her new friend',
           textExampleTranslate:
             'Ее таинственное прошлое заинтриговало ее нового друга',
@@ -1354,7 +1354,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'интрига',
         },
         {
-          audioExample: 'files/15_3289_example.mp3',
+          audioExample: 'sounds/15_3289_example.mp3',
           textExample: 'Sea turtles have an amazing longevity',
           textExampleTranslate:
             'Морские черепахи имеют удивительное долголетие',
@@ -1363,7 +1363,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'долголетие',
         },
         {
-          audioExample: 'files/15_3293_example.mp3',
+          audioExample: 'sounds/15_3293_example.mp3',
           textExample: 'Orangutans use their long arms to swing from trees',
           textExampleTranslate:
             'Орангутаны используют свои длинные руки, чтобы качаться с деревьев',
@@ -1372,7 +1372,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'орангутанг',
         },
         {
-          audioExample: 'files/15_3294_example.mp3',
+          audioExample: 'sounds/15_3294_example.mp3',
           textExample: 'If you overload the truck, it might crash',
           textExampleTranslate: 'Если перегрузить грузовик, он может разбиться',
           id: 3294,
@@ -1380,7 +1380,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'перегрузка',
         },
         {
-          audioExample: 'files/15_3297_example.mp3',
+          audioExample: 'sounds/15_3297_example.mp3',
           textExample: 'I was the recipient of four phone calls today',
           textExampleTranslate:
             'Я был получателем четырех телефонных звонков сегодня',
@@ -1401,7 +1401,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
       },
       words: [
         {
-          audioExample: 'files/15_3298_example.mp3',
+          audioExample: 'sounds/15_3298_example.mp3',
           textExample: 'Lizards are my favorite type of reptile',
           textExampleTranslate: 'Ящерицы - мой любимый тип рептилий',
           id: 3298,
@@ -1409,7 +1409,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'рептилия',
         },
         {
-          audioExample: 'files/16_3303_example.mp3',
+          audioExample: 'sounds/16_3303_example.mp3',
           textExample:
             'We studied artifacts from an ancient Chinese settlement',
           textExampleTranslate:
@@ -1419,7 +1419,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'артефакт',
         },
         {
-          audioExample: 'files/16_3304_example.mp3',
+          audioExample: 'sounds/16_3304_example.mp3',
           textExample: 'We ate authentic Italian food on our vacation to Rome',
           textExampleTranslate:
             'Мы ели настоящую итальянскую еду во время нашего отпуска в Риме',
@@ -1428,7 +1428,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'подлинный',
         },
         {
-          audioExample: 'files/16_3306_example.mp3',
+          audioExample: 'sounds/16_3306_example.mp3',
           textExample:
             'The Spanish diplomat discussed trade issues with officials in Peru',
           textExampleTranslate:
@@ -1438,7 +1438,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'дипломат',
         },
         {
-          audioExample: 'files/16_3311_example.mp3',
+          audioExample: 'sounds/16_3311_example.mp3',
           textExample: 'I enjoy reading and creating my own lyric poetry',
           textExampleTranslate:
             'Мне нравится читать и создавать свои собственные лирические стихи',
@@ -1447,7 +1447,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'лирические',
         },
         {
-          audioExample: 'files/16_3316_example.mp3',
+          audioExample: 'sounds/16_3316_example.mp3',
           textExample:
             'We successfully recruited someone to be the new manager',
           textExampleTranslate:
@@ -1457,7 +1457,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'принять на работу',
         },
         {
-          audioExample: 'files/16_3319_example.mp3',
+          audioExample: 'sounds/16_3319_example.mp3',
           textExample: 'Michael is a singer of great renown in New Zealand',
           textExampleTranslate:
             'Майкл - певец с большой известностью в Новой Зеландии',
@@ -1466,7 +1466,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'известность',
         },
         {
-          audioExample: 'files/17_3326_example.mp3',
+          audioExample: 'sounds/17_3326_example.mp3',
           textExample:
             'The company’s new advertising endeavor ended in a horrible failure',
           textExampleTranslate:
@@ -1476,7 +1476,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'стремиться',
         },
         {
-          audioExample: 'files/17_3327_example.mp3',
+          audioExample: 'sounds/17_3327_example.mp3',
           textExample: 'The couple engraved their names onto the old pine tree',
           textExampleTranslate: 'Пара выгравировала их имена на старой сосне',
           id: 3327,
@@ -1484,7 +1484,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'гравировать',
         },
         {
-          audioExample: 'files/17_3331_example.mp3',
+          audioExample: 'sounds/17_3331_example.mp3',
           textExample: 'This was a discovery of great magnitude',
           textExampleTranslate: 'Это было открытие огромной величины',
           id: 3331,
@@ -1504,7 +1504,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
       },
       words: [
         {
-          audioExample: 'files/17_3333_example.mp3',
+          audioExample: 'sounds/17_3333_example.mp3',
           textExample: 'Everyone knew that the boy’s story was an outright lie',
           textExampleTranslate:
             'Все знали, что история мальчика была откровенной ложью',
@@ -1513,7 +1513,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'вчистую',
         },
         {
-          audioExample: 'files/17_3337_example.mp3',
+          audioExample: 'sounds/17_3337_example.mp3',
           textExample: 'We studied the skeletal system in anatomy class',
           textExampleTranslate:
             'Мы изучали скелетную систему в классе анатомии',
@@ -1522,7 +1522,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'скелет',
         },
         {
-          audioExample: 'files/17_3338_example.mp3',
+          audioExample: 'sounds/17_3338_example.mp3',
           textExample: 'She stumbles a lot when she is drunk',
           textExampleTranslate: 'Она много спотыкается, когда пьяна',
           id: 3338,
@@ -1530,7 +1530,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'спотыкаться',
         },
         {
-          audioExample: 'files/17_3339_example.mp3',
+          audioExample: 'sounds/17_3339_example.mp3',
           textExample: 'He suffered from a serious thigh injury',
           textExampleTranslate: 'Он получил серьезную травму бедра',
           id: 3339,
@@ -1538,7 +1538,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'бедренная кость',
         },
         {
-          audioExample: 'files/17_3340_example.mp3',
+          audioExample: 'sounds/17_3340_example.mp3',
           textExample: 'The vicious dog tried to bite the small child',
           textExampleTranslate:
             'Злобная собака пыталась укусить маленького ребенка',
@@ -1547,7 +1547,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'порочный',
         },
         {
-          audioExample: 'files/18_3341_example.mp3',
+          audioExample: 'sounds/18_3341_example.mp3',
           textExample: 'There were two windows in their attic',
           textExampleTranslate: 'На чердаке было два окна',
           id: 3341,
@@ -1555,7 +1555,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'чердак',
         },
         {
-          audioExample: 'files/18_3343_example.mp3',
+          audioExample: 'sounds/18_3343_example.mp3',
           textExample:
             'Most of the important civic buildings are located downtown',
           textExampleTranslate:
@@ -1565,7 +1565,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'гражданский',
         },
         {
-          audioExample: 'files/18_3346_example.mp3',
+          audioExample: 'sounds/18_3346_example.mp3',
           textExample: 'He was dissatisfied with his meal',
           textExampleTranslate: 'Он был недоволен своей едой',
           id: 3346,
@@ -1573,7 +1573,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'разочарует',
         },
         {
-          audioExample: 'files/18_3350_example.mp3',
+          audioExample: 'sounds/18_3350_example.mp3',
           textExample: 'Mary forgot the key. Hence, we couldn’t open the door',
           textExampleTranslate:
             'Мэри забыла ключ. Следовательно, мы не могли открыть дверь',
@@ -1582,7 +1582,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'следовательно',
         },
         {
-          audioExample: 'files/18_3352_example.mp3',
+          audioExample: 'sounds/18_3352_example.mp3',
           textExample: 'The soup was being cooked in a large kettle',
           textExampleTranslate: 'Суп готовили в большом чайнике',
           id: 3352,
@@ -1602,7 +1602,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
       },
       words: [
         {
-          audioExample: 'files/18_3354_example.mp3',
+          audioExample: 'sounds/18_3354_example.mp3',
           textExample:
             'Driving in the snowstorm was an ordeal she’d never forget',
           textExampleTranslate:
@@ -1612,7 +1612,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'испытание',
         },
         {
-          audioExample: 'files/18_3355_example.mp3',
+          audioExample: 'sounds/18_3355_example.mp3',
           textExample: 'She was an outspoken critic about the new banking laws',
           textExampleTranslate:
             'Она была откровенным критиком о новых банковских законах',
@@ -1621,7 +1621,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'откровенный',
         },
         {
-          audioExample: 'files/19_3362_example.mp3',
+          audioExample: 'sounds/19_3362_example.mp3',
           textExample: 'Before trains, most couriers used horses to travel',
           textExampleTranslate:
             'До поезда большинство курьеров использовали лошадей для путешествий',
@@ -1630,7 +1630,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'курьер',
         },
         {
-          audioExample: 'files/19_3364_example.mp3',
+          audioExample: 'sounds/19_3364_example.mp3',
           textExample: 'When in Asian countries, bowing is a form of etiquette',
           textExampleTranslate:
             'Когда в азиатских странах, кланяясь является формой этикета',
@@ -1639,7 +1639,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'этикет',
         },
         {
-          audioExample: 'files/19_3366_example.mp3',
+          audioExample: 'sounds/19_3366_example.mp3',
           textExample:
             'Trade ships only carried valuable freight like silk and spices',
           textExampleTranslate:
@@ -1649,7 +1649,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'перевозка грузов',
         },
         {
-          audioExample: 'files/19_3368_example.mp3',
+          audioExample: 'sounds/19_3368_example.mp3',
           textExample: 'Nate’s insomnia prevented him from getting enough rest',
           textExampleTranslate:
             'Бессонница Нейта помешала ему достаточно отдохнуть',
@@ -1658,7 +1658,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'бессонница',
         },
         {
-          audioExample: 'files/19_3376_example.mp3',
+          audioExample: 'sounds/19_3376_example.mp3',
           textExample: 'I like to socialize with my classmates after school',
           textExampleTranslate:
             'Мне нравится общаться с одноклассниками после школы',
@@ -1667,7 +1667,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'социализировать',
         },
         {
-          audioExample: 'files/19_3378_example.mp3',
+          audioExample: 'sounds/19_3378_example.mp3',
           textExample: 'I took the tram to Eighth Avenue',
           textExampleTranslate: 'Я сел на трамвай до Восьмой авеню',
           id: 3378,
@@ -1675,7 +1675,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'трамвай',
         },
         {
-          audioExample: 'files/19_3379_example.mp3',
+          audioExample: 'sounds/19_3379_example.mp3',
           textExample: 'The dark clouds in the sky unsettled Beth',
           textExampleTranslate: 'Темные тучи в небе взволновали Бет',
           id: 3379,
@@ -1683,7 +1683,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'выбивает из колеи',
         },
         {
-          audioExample: 'files/20_3382_example.mp3',
+          audioExample: 'sounds/20_3382_example.mp3',
           textExample:
             'The aerial photographer took pictures from the air balloon',
           textExampleTranslate:
@@ -1705,7 +1705,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
       },
       words: [
         {
-          audioExample: 'files/20_3384_example.mp3',
+          audioExample: 'sounds/20_3384_example.mp3',
           textExample: 'The avalanche destroyed the mountain village',
           textExampleTranslate: 'Лавина разрушила горную деревню',
           id: 3384,
@@ -1713,7 +1713,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'лавина',
         },
         {
-          audioExample: 'files/20_3386_example.mp3',
+          audioExample: 'sounds/20_3386_example.mp3',
           textExample: 'I was discharged from the hospital after three days',
           textExampleTranslate: 'Я был выписан из больницы через три дня',
           id: 3386,
@@ -1721,7 +1721,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'разрядка',
         },
         {
-          audioExample: 'files/20_3387_example.mp3',
+          audioExample: 'sounds/20_3387_example.mp3',
           textExample: 'We watched the final exciting episode of the TV series',
           textExampleTranslate:
             'Мы смотрели финальный захватывающий эпизод сериала',
@@ -1730,7 +1730,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'эпизод',
         },
         {
-          audioExample: 'files/20_3389_example.mp3',
+          audioExample: 'sounds/20_3389_example.mp3',
           textExample: 'All people are mortal',
           textExampleTranslate: 'Все люди смертны',
           id: 3389,
@@ -1738,7 +1738,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'смертный',
         },
         {
-          audioExample: 'files/20_3392_example.mp3',
+          audioExample: 'sounds/20_3392_example.mp3',
           textExample: 'The girls cried at the end of the poignant movie',
           textExampleTranslate: 'Девушки плакали в конце острого фильма',
           id: 3392,
@@ -1746,7 +1746,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'горький',
         },
         {
-          audioExample: 'files/20_3394_example.mp3',
+          audioExample: 'sounds/20_3394_example.mp3',
           textExample:
             'There was rubble all over the city after the earthquake',
           textExampleTranslate:
@@ -1756,7 +1756,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'щебень',
         },
         {
-          audioExample: 'files/20_3395_example.mp3',
+          audioExample: 'sounds/20_3395_example.mp3',
           textExample: 'She was secluded on an island for over a year',
           textExampleTranslate: 'Она была уединена на острове больше года',
           id: 3395,
@@ -1764,7 +1764,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'уединиться',
         },
         {
-          audioExample: 'files/20_3397_example.mp3',
+          audioExample: 'sounds/20_3397_example.mp3',
           textExample: 'I sobbed when my youngest daughter got married',
           textExampleTranslate: 'Я рыдала, когда моя младшая дочь вышла замуж',
           id: 3397,
@@ -1772,7 +1772,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'рыдать',
         },
         {
-          audioExample: 'files/20_3398_example.mp3',
+          audioExample: 'sounds/20_3398_example.mp3',
           textExample: 'After the funeral, everybody felt very sober',
           textExampleTranslate:
             'После похорон все чувствовали себя очень трезво',
@@ -1781,7 +1781,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'трезвый',
         },
         {
-          audioExample: 'files/21_3404_example.mp3',
+          audioExample: 'sounds/21_3404_example.mp3',
           textExample: 'Have you decorated the room for Christmas yet?',
           textExampleTranslate: 'Ты уже украсил комнату на Рождество?',
           id: 3404,
@@ -1801,7 +1801,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
       },
       words: [
         {
-          audioExample: 'files/21_3405_example.mp3',
+          audioExample: 'sounds/21_3405_example.mp3',
           textExample:
             'Paint peeled off of the old dilapidated apartment building',
           textExampleTranslate:
@@ -1811,7 +1811,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'ветхий',
         },
         {
-          audioExample: 'files/21_3407_example.mp3',
+          audioExample: 'sounds/21_3407_example.mp3',
           textExample: 'She got on the plane after we said our farewells',
           textExampleTranslate:
             'Она села в самолет после того, как мы попрощались',
@@ -1820,7 +1820,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'прощальный привет',
         },
         {
-          audioExample: 'files/21_3410_example.mp3',
+          audioExample: 'sounds/21_3410_example.mp3',
           textExample: 'We discovered a major flaw in the metal chain',
           textExampleTranslate:
             'Мы обнаружили большой недостаток в металлической цепи',
@@ -1829,7 +1829,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'недостаток',
         },
         {
-          audioExample: 'files/21_3411_example.mp3',
+          audioExample: 'sounds/21_3411_example.mp3',
           textExample: 'That joke makes me grin every time I hear it',
           textExampleTranslate:
             'Эта шутка заставляет меня улыбаться каждый раз, когда я ее слышу',
@@ -1838,7 +1838,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'оскал',
         },
         {
-          audioExample: 'files/21_3416_example.mp3',
+          audioExample: 'sounds/21_3416_example.mp3',
           textExample: 'The roof of the church is made of slate',
           textExampleTranslate: 'Крыша церкви выполнена из шифера',
           id: 3416,
@@ -1846,7 +1846,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'шифер',
         },
         {
-          audioExample: 'files/21_3417_example.mp3',
+          audioExample: 'sounds/21_3417_example.mp3',
           textExample: 'I don’t find stools very comfortable to sit on',
           textExampleTranslate: 'Мне не очень удобно сидеть на стуле',
           id: 3417,
@@ -1854,7 +1854,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'стул',
         },
         {
-          audioExample: 'files/21_3420_example.mp3',
+          audioExample: 'sounds/21_3420_example.mp3',
           textExample:
             'The mechanic removed the dirt to clear the engine valve',
           textExampleTranslate:
@@ -1864,7 +1864,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'клапан',
         },
         {
-          audioExample: 'files/22_3425_example.mp3',
+          audioExample: 'sounds/22_3425_example.mp3',
           textExample: 'At the camp, the boys’ cabin was lined with cots',
           textExampleTranslate:
             'В лагере в хижине для мальчиков стояли детские кроватки',
@@ -1873,7 +1873,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'раскладушка',
         },
         {
-          audioExample: 'files/22_3428_example.mp3',
+          audioExample: 'sounds/22_3428_example.mp3',
           textExample:
             'Guerilla warfare involves a lot of hit-and-run fighting',
           textExampleTranslate:
@@ -1883,7 +1883,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'партизанская',
         },
         {
-          audioExample: 'files/22_3431_example.mp3',
+          audioExample: 'sounds/22_3431_example.mp3',
           textExample:
             'The lush jungle was filled with plants, trees, and vines',
           textExampleTranslate:
@@ -1905,7 +1905,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
       },
       words: [
         {
-          audioExample: 'files/22_3432_example.mp3',
+          audioExample: 'sounds/22_3432_example.mp3',
           textExample: 'Kelly’s new outfit made her look so glamourous',
           textExampleTranslate:
             'Новый наряд Келли заставил ее выглядеть так гламурно',
@@ -1914,7 +1914,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'снаряжение',
         },
         {
-          audioExample: 'files/22_3433_example.mp3',
+          audioExample: 'sounds/22_3433_example.mp3',
           textExample: 'The kitten cleaned its paws with its tongue',
           textExampleTranslate: 'Котенок чистил лапы языком',
           id: 3433,
@@ -1922,7 +1922,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'лапа',
         },
         {
-          audioExample: 'files/22_3440_example.mp3',
+          audioExample: 'sounds/22_3440_example.mp3',
           textExample: 'Jane was weary after a long day of work',
           textExampleTranslate: 'Джейн устала после долгого рабочего дня',
           id: 3440,
@@ -1930,7 +1930,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'уставший',
         },
         {
-          audioExample: 'files/23_3443_example.mp3',
+          audioExample: 'sounds/23_3443_example.mp3',
           textExample:
             'The sale of his inventions made the inventor a billionaire',
           textExampleTranslate:
@@ -1940,7 +1940,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'миллиардер',
         },
         {
-          audioExample: 'files/23_3445_example.mp3',
+          audioExample: 'sounds/23_3445_example.mp3',
           textExample: 'The businessman was clumsy and dropped his work files',
           textExampleTranslate:
             'Бизнесмен был неуклюжим и уронил свои рабочие файлы',
@@ -1949,7 +1949,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'неуклюжий',
         },
         {
-          audioExample: 'files/23_3448_example.mp3',
+          audioExample: 'sounds/23_3448_example.mp3',
           textExample:
             'During the flood, many families were evacuated to higher ground',
           textExampleTranslate:
@@ -1959,7 +1959,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'эвакуируюсь',
         },
         {
-          audioExample: 'files/23_3450_example.mp3',
+          audioExample: 'sounds/23_3450_example.mp3',
           textExample: 'The copier was destroyed by a mob of angry workers',
           textExampleTranslate:
             'Копир был уничтожен толпой разгневанных рабочих',
@@ -1968,7 +1968,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'чернь',
         },
         {
-          audioExample: 'files/23_3454_example.mp3',
+          audioExample: 'sounds/23_3454_example.mp3',
           textExample:
             'A scientist should always practice scrutiny with their work',
           textExampleTranslate:
@@ -1978,7 +1978,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'исследование',
         },
         {
-          audioExample: 'files/23_3457_example.mp3',
+          audioExample: 'sounds/23_3457_example.mp3',
           textExample:
             'The judge listened while the victim testified about the robbery',
           textExampleTranslate:
@@ -1988,7 +1988,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'свидетельствуют',
         },
         {
-          audioExample: 'files/24_3461_example.mp3',
+          audioExample: 'sounds/24_3461_example.mp3',
           textExample:
             'When he stepped on the gas pedal, the motorcycle accelerated',
           textExampleTranslate:
@@ -2010,7 +2010,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
       },
       words: [
         {
-          audioExample: 'files/24_3464_example.mp3',
+          audioExample: 'sounds/24_3464_example.mp3',
           textExample:
             'After the fire, this section of forest is rather dreary',
           textExampleTranslate:
@@ -2020,7 +2020,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'муторно',
         },
         {
-          audioExample: 'files/24_3467_example.mp3',
+          audioExample: 'sounds/24_3467_example.mp3',
           textExample:
             'The number of electrons in an atom determines its charge',
           textExampleTranslate:
@@ -2030,7 +2030,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'электрон',
         },
         {
-          audioExample: 'files/24_3475_example.mp3',
+          audioExample: 'sounds/24_3475_example.mp3',
           textExample: 'The knife easily penetrated the surface of the orange',
           textExampleTranslate:
             'Нож легко проникает сквозь поверхность апельсина',
@@ -2039,7 +2039,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'проникнуть',
         },
         {
-          audioExample: 'files/24_3476_example.mp3',
+          audioExample: 'sounds/24_3476_example.mp3',
           textExample: 'They made persistent attempts to get him to eat',
           textExampleTranslate:
             'Они предпринимали настойчивые попытки заставить его есть',
@@ -2048,7 +2048,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'стойкие',
         },
         {
-          audioExample: 'files/24_3477_example.mp3',
+          audioExample: 'sounds/24_3477_example.mp3',
           textExample: 'The propulsion lifted the rocket into the sky',
           textExampleTranslate: 'Движитель поднял ракету в небо',
           id: 3477,
@@ -2056,7 +2056,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'двигательная',
         },
         {
-          audioExample: 'files/24_3480_example.mp3',
+          audioExample: 'sounds/24_3480_example.mp3',
           textExample:
             'Doctors sometimes use electric shock to stimulate a patient’s heartbeat',
           textExampleTranslate:
@@ -2066,7 +2066,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'стимулировать',
         },
         {
-          audioExample: 'files/25_3484_example.mp3',
+          audioExample: 'sounds/25_3484_example.mp3',
           textExample: 'The children chattered in the back of the classroom',
           textExampleTranslate: 'Дети болтали в задней части класса',
           id: 3484,
@@ -2074,7 +2074,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'болтовня',
         },
         {
-          audioExample: 'files/25_3487_example.mp3',
+          audioExample: 'sounds/25_3487_example.mp3',
           textExample:
             'The nation’s economy continued to deteriorate despite the politicians’ efforts',
           textExampleTranslate:
@@ -2084,7 +2084,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'портится',
         },
         {
-          audioExample: 'files/25_3488_example.mp3',
+          audioExample: 'sounds/25_3488_example.mp3',
           textExample:
             'The thermometer recorded a temperature of 38 degrees Celsius',
           textExampleTranslate:
@@ -2094,7 +2094,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'степень',
         },
         {
-          audioExample: 'files/25_3491_example.mp3',
+          audioExample: 'sounds/25_3491_example.mp3',
           textExample: 'At dinner, my dad was very hospitable to my friends',
           textExampleTranslate:
             'За ужином мой папа был очень гостеприимен с моими друзьями',
@@ -2115,7 +2115,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
       },
       words: [
         {
-          audioExample: 'files/25_3492_example.mp3',
+          audioExample: 'sounds/25_3492_example.mp3',
           textExample: 'He woke up in an ill humor, angry at everyone',
           textExampleTranslate:
             'Он проснулся в плохом настроении, злой на всех',
@@ -2124,7 +2124,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'юмор',
         },
         {
-          audioExample: 'files/25_3493_example.mp3',
+          audioExample: 'sounds/25_3493_example.mp3',
           textExample: 'The manor had over forty rooms and beautiful gardens',
           textExampleTranslate:
             'В усадьбе было более сорока комнат и прекрасных садов',
@@ -2133,7 +2133,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'усадьба',
         },
         {
-          audioExample: 'files/25_3498_example.mp3',
+          audioExample: 'sounds/25_3498_example.mp3',
           textExample: 'The drawing of Olivia’s profile came out very well',
           textExampleTranslate:
             'Рисунок профиля Оливии получился очень хорошим',
@@ -2142,7 +2142,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'профиль',
         },
         {
-          audioExample: 'files/25_3499_example.mp3',
+          audioExample: 'sounds/25_3499_example.mp3',
           textExample: 'The winding river turned and looped around the hills',
           textExampleTranslate:
             'Извилистая река повернулась и обвилась вокруг холмов',
@@ -2151,7 +2151,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'обмотка',
         },
         {
-          audioExample: 'files/26_3501_example.mp3',
+          audioExample: 'sounds/26_3501_example.mp3',
           textExample: 'President Lincoln abolished slavery in the US',
           textExampleTranslate: 'Президент Линкольн отменил рабство в США',
           id: 3501,
@@ -2159,7 +2159,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'отменить',
         },
         {
-          audioExample: 'files/26_3503_example.mp3',
+          audioExample: 'sounds/26_3503_example.mp3',
           textExample: 'George aspired to be a doctor from a young age',
           textExampleTranslate: 'Джордж с юных лет стремился стать врачом',
           id: 3503,
@@ -2167,7 +2167,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'стремиться',
         },
         {
-          audioExample: 'files/26_3508_example.mp3',
+          audioExample: 'sounds/26_3508_example.mp3',
           textExample:
             'The organization disseminates information about the dangers of smoking',
           textExampleTranslate:
@@ -2177,7 +2177,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'распространять',
         },
         {
-          audioExample: 'files/26_3510_example.mp3',
+          audioExample: 'sounds/26_3510_example.mp3',
           textExample:
             'That news channel is infamous for presenting biased information',
           textExampleTranslate:
@@ -2187,7 +2187,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'позорный',
         },
         {
-          audioExample: 'files/26_3512_example.mp3',
+          audioExample: 'sounds/26_3512_example.mp3',
           textExample: 'After the injury, the player limped off of the field',
           textExampleTranslate: 'После травмы игрок хромал с поля',
           id: 3512,
@@ -2195,7 +2195,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'хромать',
         },
         {
-          audioExample: 'files/26_3518_example.mp3',
+          audioExample: 'sounds/26_3518_example.mp3',
           textExample:
             'The secrecy of the big organization made the government nervous',
           textExampleTranslate:
@@ -2217,7 +2217,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
       },
       words: [
         {
-          audioExample: 'files/26_3519_example.mp3',
+          audioExample: 'sounds/26_3519_example.mp3',
           textExample: 'Such social problems need to be tackled right away',
           textExampleTranslate:
             'Такие социальные проблемы нужно решать немедленно',
@@ -2226,7 +2226,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'снасти',
         },
         {
-          audioExample: 'files/26_3520_example.mp3',
+          audioExample: 'sounds/26_3520_example.mp3',
           textExample: 'The woman’s powerful eyes often put men in a trance',
           textExampleTranslate:
             'Мощные глаза женщины часто приводят мужчин в транс',
@@ -2235,7 +2235,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'транс',
         },
         {
-          audioExample: 'files/27_3522_example.mp3',
+          audioExample: 'sounds/27_3522_example.mp3',
           textExample: 'Several lines had been deleted from her speech',
           textExampleTranslate: 'Несколько строк были удалены из ее речи',
           id: 3522,
@@ -2243,7 +2243,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'удалять',
         },
         {
-          audioExample: 'files/27_3526_example.mp3',
+          audioExample: 'sounds/27_3526_example.mp3',
           textExample:
             'If you want firsthand knowledge, ask someone who saw it',
           textExampleTranslate:
@@ -2253,7 +2253,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'из первых рук',
         },
         {
-          audioExample: 'files/27_3529_example.mp3',
+          audioExample: 'sounds/27_3529_example.mp3',
           textExample:
             'A more inclusive event would have allowed children to attend',
           textExampleTranslate:
@@ -2263,7 +2263,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'включено',
         },
         {
-          audioExample: 'files/27_3530_example.mp3',
+          audioExample: 'sounds/27_3530_example.mp3',
           textExample:
             'The senator had served ten years in the national legislature',
           textExampleTranslate:
@@ -2273,7 +2273,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'законодательная власть',
         },
         {
-          audioExample: 'files/27_3532_example.mp3',
+          audioExample: 'sounds/27_3532_example.mp3',
           textExample:
             'In today’s global economy, being monolingual limits your opportunities',
           textExampleTranslate:
@@ -2283,7 +2283,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'одноязычных',
         },
         {
-          audioExample: 'files/27_3534_example.mp3',
+          audioExample: 'sounds/27_3534_example.mp3',
           textExample:
             'Every year, young patriots join their countries’ militaries',
           textExampleTranslate:
@@ -2293,7 +2293,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'патриот',
         },
         {
-          audioExample: 'files/27_3536_example.mp3',
+          audioExample: 'sounds/27_3536_example.mp3',
           textExample:
             'The differences between racial groups are physical characteristics and culture',
           textExampleTranslate:
@@ -2303,7 +2303,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'расовый',
         },
         {
-          audioExample: 'files/28_3542_example.mp3',
+          audioExample: 'sounds/28_3542_example.mp3',
           textExample: 'He waited for his mother to arrive at the depot',
           textExampleTranslate: 'Он ждал, когда его мать прибудет в депо',
           id: 3542,
@@ -2323,7 +2323,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
       },
       words: [
         {
-          audioExample: 'files/28_3544_example.mp3',
+          audioExample: 'sounds/28_3544_example.mp3',
           textExample:
             'He shouted, “There it is!” and pointed with his forefinger',
           textExampleTranslate:
@@ -2333,7 +2333,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'указательный палец',
         },
         {
-          audioExample: 'files/28_3546_example.mp3',
+          audioExample: 'sounds/28_3546_example.mp3',
           textExample:
             'Sweating is an inherent bodily function when exercising',
           textExampleTranslate:
@@ -2343,7 +2343,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'присущий',
         },
         {
-          audioExample: 'files/28_3547_example.mp3',
+          audioExample: 'sounds/28_3547_example.mp3',
           textExample: 'My dad intimidates my friends whenever they visit',
           textExampleTranslate:
             'Мой папа пугает моих друзей, когда они посещают',
@@ -2352,7 +2352,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'запугивание',
         },
         {
-          audioExample: 'files/28_3548_example.mp3',
+          audioExample: 'sounds/28_3548_example.mp3',
           textExample: 'The school janitor cleaned up the messy cafeteria',
           textExampleTranslate: 'Дворник школы убрал грязную столовую',
           id: 3548,
@@ -2360,7 +2360,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'дворник',
         },
         {
-          audioExample: 'files/28_3549_example.mp3',
+          audioExample: 'sounds/28_3549_example.mp3',
           textExample: 'The ground is still moist from the rain last night',
           textExampleTranslate: 'Земля все еще влажная от дождя прошлой ночью',
           id: 3549,
@@ -2368,7 +2368,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'влажный',
         },
         {
-          audioExample: 'files/28_3551_example.mp3',
+          audioExample: 'sounds/28_3551_example.mp3',
           textExample: 'The bully prodded me in the chest with her finger',
           textExampleTranslate: 'Хулиган ткнул меня пальцем в грудь',
           id: 3551,
@@ -2376,7 +2376,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'ткнуть',
         },
         {
-          audioExample: 'files/28_3553_example.mp3',
+          audioExample: 'sounds/28_3553_example.mp3',
           textExample: 'Mike restrained Allen from reaching the door',
           textExampleTranslate: 'Майк удержал Аллена от доступа к двери',
           id: 3553,
@@ -2384,7 +2384,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'сдерживать',
         },
         {
-          audioExample: 'files/28_3557_example.mp3',
+          audioExample: 'sounds/28_3557_example.mp3',
           textExample: 'The man jumped over the cars as a promotional stunt',
           textExampleTranslate:
             'Человек перепрыгнул через машины как рекламный трюк',
@@ -2393,7 +2393,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'трюк',
         },
         {
-          audioExample: 'files/29_3568_example.mp3',
+          audioExample: 'sounds/29_3568_example.mp3',
           textExample: 'His family farm covered many hectares',
           textExampleTranslate: 'Его семейная ферма занимала много гектаров',
           id: 3568,
@@ -2401,7 +2401,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'гектар',
         },
         {
-          audioExample: 'files/29_3569_example.mp3',
+          audioExample: 'sounds/29_3569_example.mp3',
           textExample:
             'The pleasant music heightened their enjoyment of the wonderful dinner',
           textExampleTranslate:
@@ -2423,7 +2423,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
       },
       words: [
         {
-          audioExample: 'files/29_3571_example.mp3',
+          audioExample: 'sounds/29_3571_example.mp3',
           textExample:
             'The mansion had thirty bedrooms, two kitchens, and a pool',
           textExampleTranslate:
@@ -2433,7 +2433,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'особняк',
         },
         {
-          audioExample: 'files/29_3573_example.mp3',
+          audioExample: 'sounds/29_3573_example.mp3',
           textExample: 'He was overjoyed by the news of his promotion',
           textExampleTranslate:
             'Он был в восторге от новостей о его продвижении',
@@ -2442,7 +2442,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'обрадовалась',
         },
         {
-          audioExample: 'files/29_3576_example.mp3',
+          audioExample: 'sounds/29_3576_example.mp3',
           textExample:
             'The old fire station was renovated into an apartment building',
           textExampleTranslate:
@@ -2452,7 +2452,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'ремонт',
         },
         {
-          audioExample: 'files/29_3580_example.mp3',
+          audioExample: 'sounds/29_3580_example.mp3',
           textExample: 'After the game, the turf looked ragged',
           textExampleTranslate: 'После игры газон выглядел рваным',
           id: 3580,
@@ -2460,7 +2460,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'дерн',
         },
         {
-          audioExample: 'files/30_3584_example.mp3',
+          audioExample: 'sounds/30_3584_example.mp3',
           textExample:
             'Our school’s football team is mostly comprised with seniors',
           textExampleTranslate:
@@ -2470,7 +2470,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'включать',
         },
         {
-          audioExample: 'files/30_3585_example.mp3',
+          audioExample: 'sounds/30_3585_example.mp3',
           textExample:
             'The statue’s face depicted the general’s determination and courage',
           textExampleTranslate:
@@ -2480,7 +2480,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'изображают',
         },
         {
-          audioExample: 'files/30_3587_example.mp3',
+          audioExample: 'sounds/30_3587_example.mp3',
           textExample:
             'When the temperature dropped to 32° Fahrenheit, it started snowing',
           textExampleTranslate:
@@ -2490,7 +2490,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'фаренгейт',
         },
         {
-          audioExample: 'files/30_3589_example.mp3',
+          audioExample: 'sounds/30_3589_example.mp3',
           textExample: 'All the trees in this grove are apple trees',
           textExampleTranslate: 'Все деревья в этой роще - яблони',
           id: 3589,
@@ -2498,7 +2498,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'роща',
         },
         {
-          audioExample: 'files/30_3591_example.mp3',
+          audioExample: 'sounds/30_3591_example.mp3',
           textExample:
             'Many Australian farmers use the outback to raise cattle',
           textExampleTranslate:
@@ -2508,7 +2508,7 @@ const wordCollectionLevel6: WordCollectionLevel = {
           wordTranslate: 'необжитой местности',
         },
         {
-          audioExample: 'files/30_3596_example.mp3',
+          audioExample: 'sounds/30_3596_example.mp3',
           textExample:
             'Our tarif on imported wool makes foreign wool more expensive',
           textExampleTranslate:

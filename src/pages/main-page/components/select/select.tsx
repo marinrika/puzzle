@@ -1,14 +1,20 @@
-import { ISelect } from '../../../../interfaces/interfaces';
+import { SelectOption } from '../../../../interfaces/interfaces';
 import styles from './select.module.css';
 
-const Select = ({ arrSelect, label, selectedOption, onChange }: ISelect) => {
+const Select = ({
+  arrSelect,
+  label,
+  selectedOption,
+  onChange,
+}: SelectOption) => {
   return (
     <div className={styles.wrapper}>
       {label}
       <select
         className={styles.select}
         onChange={(event) => onChange(event)}
-        value={selectedOption + 1}>
+        value={selectedOption + 1}
+      >
         {arrSelect.map((item, index) =>
           item === 0 ? (
             <option className={styles.option} value={index + 1} key={index}>
@@ -18,7 +24,8 @@ const Select = ({ arrSelect, label, selectedOption, onChange }: ISelect) => {
             <option
               className={styles.optionColor}
               value={index + 1}
-              key={index}>
+              key={index}
+            >
               {index + 1}
             </option>
           )

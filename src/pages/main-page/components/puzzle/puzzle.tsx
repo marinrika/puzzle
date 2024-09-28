@@ -1,6 +1,8 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { StatePuzzle } from '../../../../interfaces/interfaces';
 import styles from './puzzle.module.css';
+import { useSelector } from 'react-redux';
+import { selectCanvasLine } from '../../../../redux/slices/play-field-slice';
 
 const Puzzle = ({
   item,
@@ -11,13 +13,14 @@ const Puzzle = ({
   imageHeightNew,
   src,
   isColor,
+  draggable,
   selectedLine,
   arrForCommonLength,
   onClick,
 }: StatePuzzle) => {
   const heightPuzzle: number = imageHeightNew / 10;
   const commonLength: number = imageWidthNew;
-
+  const [divLine, setDivLine] = useState<Element | null>(null);
   const pi: number = Math.PI;
 
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -122,12 +125,19 @@ const Puzzle = ({
     draw(context, widthPuzzle);
   }, [commonArrLength, commonLength, draw, heightPuzzle, item.length, src]);
 
+  function dragStart(event: React.DragEvent<HTMLCanvasElement>) {
+    setDivLine(document.querySelectorAll('[data-line]')[selectedLine]);
+    console.log(divLine?.childNodes);
+  }
+
   return (
     <canvas
       id={index.toString()}
       className={styles.puzzle}
       onClick={onClick}
-      ref={canvasRef}></canvas>
+      ref={canvasRef}
+      draggable={draggable}
+      onDragStart={(event) => dragStart(event)}></canvas>
   );
 };
 

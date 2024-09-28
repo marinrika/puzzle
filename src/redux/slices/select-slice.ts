@@ -39,10 +39,13 @@ const selectSlice = createSlice({
     setSelectOption: (state, action: { payload: number[][]; type: string }) => {
       state.selectOptions = action.payload;
     },
+    clearSelect: () => {
+      return initialState;
+    },
   },
 });
 
-export const { setLevel, setRound, setLine, setSelectOption } =
+export const { setLevel, setRound, setLine, setSelectOption, clearSelect } =
   selectSlice.actions;
 
 export const selectLevel = (state: { select: { level: number } }) =>

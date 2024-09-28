@@ -16,7 +16,7 @@ export interface CommonButton {
   onClick?: MouseEventHandler<HTMLButtonElement>;
 }
 
-export interface ISelect {
+export interface SelectOption {
   arrSelect: number[];
   label: string;
   selectedOption: number;
@@ -80,6 +80,7 @@ export interface StatePuzzle {
   imageHeightNew: number;
   selectedLine: number;
   isColor: boolean;
+  draggable: boolean;
   src: string;
   arrForCommonLength: number[];
   onClick: React.MouseEventHandler<HTMLCanvasElement>;
@@ -87,6 +88,7 @@ export interface StatePuzzle {
 
 export interface StatisticWindow {
   content: string;
+  line: number;
   giveUp: boolean;
 }
 
@@ -94,4 +96,8 @@ export interface StateStatistic {
   isStatistic: boolean;
   isModal: boolean;
   modal: StatisticWindow[];
+}
+
+export interface ContinueRound {
+  onClick: MouseEventHandler<HTMLButtonElement>;
 }
