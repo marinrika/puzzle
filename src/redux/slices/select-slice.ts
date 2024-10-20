@@ -10,14 +10,13 @@ const optionArray = lengthSelectLevel.map((_select, index) =>
 
 if (!localStorage.getItem('level')) localStorage.setItem('level', '0');
 if (!localStorage.getItem('round')) localStorage.setItem('round', '0');
-localStorage.setItem('line', '0');
 if (!localStorage.getItem('selectOptions'))
   localStorage.setItem('selectOptions', JSON.stringify(optionArray));
 
 const initialState: StateSelect = {
   level: Number(localStorage.getItem('level')),
   round: Number(localStorage.getItem('round')),
-  line: Number(localStorage.getItem('line')),
+  line: 0,
   selectOptions: JSON.parse(localStorage.getItem('selectOptions')!),
 };
 

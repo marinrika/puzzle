@@ -1,8 +1,7 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import { StatePuzzle } from '../../../../interfaces/interfaces';
 import styles from './puzzle.module.css';
-import { useSelector } from 'react-redux';
-import { selectCanvasLine } from '../../../../redux/slices/play-field-slice';
+import { QUANTITY_LINES } from '../../../../data/variables/variables';
 
 const Puzzle = ({
   item,
@@ -18,11 +17,9 @@ const Puzzle = ({
   arrForCommonLength,
   onClick,
 }: StatePuzzle) => {
-  const heightPuzzle: number = imageHeightNew / 10;
+  const heightPuzzle: number = imageHeightNew / QUANTITY_LINES;
   const commonLength: number = imageWidthNew;
-  const [divLine, setDivLine] = useState<Element | null>(null);
   const pi: number = Math.PI;
-
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -30,6 +27,7 @@ const Puzzle = ({
     const image = new Image();
     image.src = src;
     image.onload = () => {
+      ctx.reset();
       ctx.beginPath();
       ctx.moveTo(0, 0);
       ctx.lineTo(widthPuzzle, 0);
@@ -120,15 +118,19 @@ const Puzzle = ({
     canvas.style.marginLeft = `-${
       (heightPuzzle * (Math.sqrt(3) + 2)) / 14 + 2
     }px`;
+
     const context = canvas.getContext('2d');
     if (context === null) return;
     draw(context, widthPuzzle);
-  }, [commonArrLength, commonLength, draw, heightPuzzle, item.length, src]);
-
-  function dragStart(event: React.DragEvent<HTMLCanvasElement>) {
-    setDivLine(document.querySelectorAll('[data-line]')[selectedLine]);
-    console.log(divLine?.childNodes);
-  }
+  }, [
+    commonArrLength,
+    commonLength,
+    draw,
+    heightPuzzle,
+    item.length,
+    src,
+    imageWidthNew,
+  ]);
 
   return (
     <canvas
@@ -136,8 +138,7 @@ const Puzzle = ({
       className={styles.puzzle}
       onClick={onClick}
       ref={canvasRef}
-      draggable={draggable}
-      onDragStart={(event) => dragStart(event)}></canvas>
+      draggable={draggable}></canvas>
   );
 };
 

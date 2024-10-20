@@ -33,7 +33,7 @@ const playFieldSlice = createSlice({
     setImageHeigthNew: (state, action: { payload: number; type: string }) => {
       state.imageHeightNew = action.payload;
     },
-    setImageWidthhNew: (state, action: { payload: number; type: string }) => {
+    setImageWidthNew: (state, action: { payload: number; type: string }) => {
       state.imageWidthNew = action.payload;
     },
     setNewImage: (state, action: { payload: string; type: string }) => {
@@ -82,7 +82,7 @@ export const {
   setImageHeigthNew,
   setImageWidthOld,
   setImageHeigthOld,
-  setImageWidthhNew,
+  setImageWidthNew,
   setNewImage,
   setIsRound,
   setIsColor,

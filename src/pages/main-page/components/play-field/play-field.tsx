@@ -79,6 +79,7 @@ const PlayField = () => {
       },
       0
     );
+
     return lineLessons.map((item, index) => (
       <Puzzle
         item={item}
@@ -130,7 +131,28 @@ const PlayField = () => {
             minHeight: imageHeightNew / QUANTITY_LINES,
             paddingLeft:
               ((imageHeightNew / QUANTITY_LINES) * (Math.sqrt(3) + 2)) / 14 + 2,
-          }}></div>
+          }}
+          onDragStart={
+            selectedLine === index
+              ? (event) => dragStartHandler(event)
+              : () => {}
+          }
+          onDragLeave={
+            selectedLine === index
+              ? (event) => dragLeaveHandler(event)
+              : () => {}
+          }
+          onDragEnd={
+            selectedLine === index ? (event) => dragEndHandler(event) : () => {}
+          }
+          onDragOver={
+            selectedLine === index
+              ? (event) => dragOverHandler(event)
+              : () => {}
+          }
+          onDrop={
+            selectedLine === index ? (event) => dropHandler(event) : () => {}
+          }></div>
       )
     );
 
@@ -184,6 +206,69 @@ const PlayField = () => {
     sound.onended = () => (divSound.style.animation = 'none');
   }
 
+  function dragStartHandler(event: React.DragEvent<HTMLDivElement>) {
+    const puzzle = event.target as HTMLCanvasElement;
+    if (!puzzle) return;
+    puzzle.classList.add('selected');
+  }
+
+  function dragLeaveHandler(event: React.DragEvent<HTMLDivElement>) {
+    const puzzle = event.target as HTMLCanvasElement;
+    puzzle.style.opacity = '1.0';
+  }
+
+  function dragEndHandler(event: React.DragEvent<HTMLDivElement>) {
+    const puzzle = event.target as HTMLCanvasElement;
+    puzzle.classList.remove('selected');
+    puzzle.style.opacity = '1.0';
+  }
+
+  function dragOverHandler(event: React.DragEvent<HTMLDivElement>) {
+    event.preventDefault();
+    const puzzle = event.target as HTMLCanvasElement;
+    puzzle.style.opacity = '0.5';
+  }
+
+  function dropHandler(event: React.DragEvent<HTMLDivElement>) {
+    event.preventDefault();
+    const startPuzzle = document.querySelector(
+      '.selected'
+    ) as HTMLCanvasElement;
+    const target = event.target as Element;
+    if (target.tagName === 'CANVAS') {
+      const endPuzzle = event.target as HTMLCanvasElement;
+      const line = endPuzzle.parentElement;
+      if (!line) return;
+      line.insertBefore(startPuzzle, endPuzzle);
+      endPuzzle.style.opacity = '1.0';
+      if (Array.from(line.children).length === puzzlesArraySort.length) {
+        Array.from(line.children).forEach((item) => {
+          const puzzle = item as HTMLCanvasElement;
+          puzzle.style.animation = 'none';
+        });
+        dispatch(setIsCheck(false));
+      } else {
+        dispatch(setIsCheck(true));
+        dispatch(setIsContinue(false));
+      }
+    }
+    if (target.tagName === 'DIV') {
+      const line = target as HTMLDivElement;
+      target.appendChild(startPuzzle);
+      line.style.opacity = '1.0';
+      if (Array.from(line.children).length === puzzlesArraySort.length) {
+        Array.from(line.children).forEach((item) => {
+          const puzzle = item as HTMLCanvasElement;
+          puzzle.style.animation = 'none';
+        });
+        dispatch(setIsCheck(false));
+      } else {
+        dispatch(setIsCheck(true));
+        dispatch(setIsContinue(false));
+      }
+    }
+  }
+
   return (
     <div className={styles.wrapper}>
       {isSound ? null : (
@@ -222,6 +307,11 @@ const PlayField = () => {
         className={isLineHintHidden ? styles.lineHidden : styles.line}
         ref={lineRefHint}
         id="line-hint"
+        onDragStart={(event) => dragStartHandler(event)}
+        onDragLeave={(event) => dragLeaveHandler(event)}
+        onDragEnd={(event) => dragEndHandler(event)}
+        onDragOver={(event) => dragOverHandler(event)}
+        onDrop={(event) => dropHandler(event)}
         style={{
           width: imageWidthNew - 4,
           height: imageHeightNew / QUANTITY_LINES,

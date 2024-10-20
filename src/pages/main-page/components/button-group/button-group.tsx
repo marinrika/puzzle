@@ -46,6 +46,7 @@ const ButtonGroup = ({ onClick }: ContinueRound) => {
     if (!canvasLine[indexLine] || !divHintLine) return;
 
     Array.from(canvasLine[indexLine].children).forEach((element, index) => {
+      console.log('fffff');
       const puzzle = element as HTMLCanvasElement;
       if (puzzle.id === index.toString()) {
         puzzle.style.animation = 'shadowGreen 3s ease-in';

@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import levelSelection from '../../../../data/levels/level-selection';
 import { useDispatch, useSelector } from 'react-redux';
 import {
@@ -11,18 +11,10 @@ import {
   selectImageWidthOld,
   setImageHeigthNew,
   setImageHeigthOld,
-  setImageWidthhNew,
+  setImageWidthNew,
   setImageWidthOld,
   setNewImage,
 } from '../../../../redux/slices/play-field-slice';
-
-let widthResize: number;
-if (window.innerWidth >= 1200) {
-  widthResize = 1000;
-}
-if (window.innerWidth < 1200) {
-  widthResize = 700;
-}
 
 const Canvas = () => {
   const selectedLevel = useSelector(selectLevel);
@@ -37,14 +29,26 @@ const Canvas = () => {
   img.src = `https://raw.githubusercontent.com/marinrika/puzzle-data/main/images/${
     levelSelection(selectedLevel + 1).rounds[selectedRound].levelData.imageSrc
   }`;
-  const imageWidthNew = widthResize;
+
+  const useDeviceDetect = () => {
+    const [isTablet, setIsTablet] = useState(window.innerWidth < 1200);
+    useEffect(() => {
+      const handleResize = () => setIsTablet(window.innerWidth < 1200);
+      window.addEventListener('resize', handleResize);
+      return () => window.removeEventListener('resize', handleResize);
+    }, []);
+    return { isTablet };
+  };
+
+  const { isTablet } = useDeviceDetect();
+  const widthResize = isTablet ? 700 : 1000;
 
   img.onload = () => {
     const imageHeightNew = (widthResize * img.height) / img.width;
-    dispatch(setImageWidthhNew(imageWidthNew));
+    dispatch(setImageWidthNew(widthResize));
+    dispatch(setImageHeigthNew(imageHeightNew));
     dispatch(setImageWidthOld(img.width));
     dispatch(setImageHeigthOld(img.height));
-    dispatch(setImageHeigthNew(imageHeightNew));
   };
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
@@ -59,42 +63,23 @@ const Canvas = () => {
       imageHeigthOld,
       0,
       0,
-      imageWidthNew,
+      widthResize,
       imageHeightNew
     );
   };
   useEffect(() => {
     const canvas = canvasRef.current;
     if (canvas == null) return;
-    canvas.width = imageWidthNew;
+    canvas.width = widthResize;
     canvas.height = imageHeightNew;
     const context = canvas.getContext('2d');
     draw(context);
     const newImage = new Image();
     newImage.src = canvas.toDataURL('image/jpeg');
     dispatch(setNewImage(newImage.src));
-  }, [dispatch, draw, imageHeightNew, imageWidthNew]);
+  }, [dispatch, draw, imageHeightNew, widthResize]);
 
   return <canvas ref={canvasRef}></canvas>;
 };
-
-const media = window.matchMedia('(max-width: 1200px)');
-function setResize() {
-  media.addEventListener('change', (event) => {
-    if (!event.matches) {
-      widthResize = 1000;
-      // localStorage.setItem('line', '0');
-      // emitter.emit('line-remove', widthResize);
-      // convertImageSize();
-    }
-    if (event.matches) {
-      widthResize = 700;
-      // localStorage.setItem('line', '0');
-      // emitter.emit('line-remove', widthResize);
-      // convertImageSize();
-    }
-  });
-}
-setResize();
 
 export default Canvas;
