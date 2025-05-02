@@ -1,13 +1,13 @@
 import Select from '../select/select';
 import styles from './select-group.module.css';
-import { ISelect } from '../../../../interfaces/interfaces';
+import { SelectOption } from '../../../../interfaces/interfaces';
 
 const SelectGroup = ({
   arrSelect,
   label,
   selectedOption,
   onChange,
-}: ISelect) => {
+}: SelectOption) => {
   return (
     <div className={styles.wrapper}>
       <Select
