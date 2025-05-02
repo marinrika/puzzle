@@ -167,6 +167,19 @@ const PlayField = () => {
     dispatch(setHintLine(divLineHintId));
   }, [dispatch, divLine, divLineHint, selectedLine]);
 
+  function updateLine(
+    divLineSelected: Element,
+    divLineSelectedId: string,
+    divLineHintId: string,
+    puzzle: HTMLCanvasElement
+  ) {
+    if (!divLineHint) return;
+    divLineHint.removeChild(puzzle);
+    divLineSelected.appendChild(puzzle);
+    dispatch(setCanvasLine(divLineSelectedId));
+    dispatch(setHintLine(divLineHintId));
+  }
+
   function movePuzzle(event: React.MouseEvent<HTMLCanvasElement, MouseEvent>) {
     if (!divLineHint || !divLine) return;
     const puzzle = event.target as HTMLCanvasElement;
@@ -175,19 +188,13 @@ const PlayField = () => {
     const divLineHintId = divLineHint.id;
 
     if (puzzle.parentElement?.id === 'line-hint') {
-      divLineHint.removeChild(puzzle);
-      divLineSelected.appendChild(puzzle);
-      dispatch(setCanvasLine(divLineSelectedId));
-      dispatch(setHintLine(divLineHintId));
+      updateLine(divLineSelected, divLineSelectedId, divLineHintId, puzzle);
     } else {
       Array.from(divLineSelected.children).forEach((element) => {
         const puzzle = element as HTMLCanvasElement;
         puzzle.style.animation = 'none';
       });
-      divLineSelected.removeChild(puzzle);
-      divLineHint.appendChild(puzzle);
-      dispatch(setCanvasLine(divLineSelectedId));
-      dispatch(setHintLine(divLineHintId));
+      updateLine(divLineSelected, divLineSelectedId, divLineHintId, puzzle);
     }
 
     if (divLineSelected.childNodes.length === puzzlesArraySort.length) {

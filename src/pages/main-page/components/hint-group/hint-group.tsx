@@ -30,7 +30,10 @@ function HintGroup() {
 
   return (
     <div className={styles.wrapper}>
-      <div onClick={soundHint} className={styles.hint}>
+      <div
+        onClick={soundHint}
+        className={styles.hint}
+        title={isSound ? 'Turn on sound' : 'Turn off sound'}>
         {isSound ? (
           <img
             src="../../../assets/images/audioOff.png"
@@ -40,7 +43,10 @@ function HintGroup() {
           <img src="../../../assets/images/audioOn.png" style={{ width: 40 }} />
         )}
       </div>
-      <div onClick={translateHint} className={styles.hint}>
+      <div
+        onClick={translateHint}
+        className={styles.hint}
+        title={IsTranslate ? 'Turn on translation' : 'Turn off translation'}>
         {IsTranslate ? (
           <img
             src="../../../assets/images/translateOff.png"
@@ -53,7 +59,10 @@ function HintGroup() {
           />
         )}
       </div>
-      <div onClick={colorHint} className={styles.hint}>
+      <div
+        onClick={colorHint}
+        className={styles.hint}
+        title={isColor ? 'Turn on image' : 'Turn off image'}>
         {isColor ? (
           <img
             src="../../../assets/images/puzzleOff.png"
